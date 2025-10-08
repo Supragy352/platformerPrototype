@@ -1,0 +1,57 @@
+[gd_scene load_steps=9 format=3 uid="uid://bx52itmncolhj"]
+
+[ext_resource type="Script" uid="uid://cocabnyneqdjd" path="res://Game/Script/VFX_Controller.gd" id="1_gyvfn"]
+[ext_resource type="Texture2D" uid="uid://bincytpyofprx" path="res://Asset/VFX/VFX_Land.png" id="2_suaj7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o4xmi"]
+atlas = ExtResource("2_suaj7")
+region = Rect2(0, 0, 80, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ct2tr"]
+atlas = ExtResource("2_suaj7")
+region = Rect2(80, 0, 80, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jutpg"]
+atlas = ExtResource("2_suaj7")
+region = Rect2(160, 0, 80, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a5y4u"]
+atlas = ExtResource("2_suaj7")
+region = Rect2(240, 0, 80, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j0eoj"]
+atlas = ExtResource("2_suaj7")
+region = Rect2(320, 0, 80, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wk2sj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o4xmi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ct2tr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jutpg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a5y4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j0eoj")
+}],
+"loop": false,
+"name": &"Start",
+"speed": 20.0
+}]
+
+[node name="VFX_Land" type="Node2D"]
+script = ExtResource("1_gyvfn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -12)
+sprite_frames = SubResource("SpriteFrames_wk2sj")
+animation = &"Start"
+frame = 4
+frame_progress = 1.0

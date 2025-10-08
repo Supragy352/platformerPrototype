@@ -1,0 +1,3665 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inc\t#include \"…\""
+			],
+			[
+				"GetMous",
+				"GetMouseWheelMove"
+			],
+			[
+				"scal",
+				"scale"
+			],
+			[
+				"screen",
+				"screenHeight"
+			],
+			[
+				"Draw",
+				"DrawPixel"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"GetMouseW",
+				"GetMouseWheelMove"
+			],
+			[
+				"oct",
+				"octave"
+			],
+			[
+				"stb_perlin_noise3_se",
+				"stb_perlin_noise3_seed"
+			],
+			[
+				"getmous",
+				"GetMouseY"
+			],
+			[
+				"getMouse",
+				"GetMouseY"
+			],
+			[
+				"getmouse",
+				"GetMouseY"
+			],
+			[
+				"drawtex",
+				"DrawText"
+			],
+			[
+				"ray",
+				"raylib.h>"
+			],
+			[
+				"fromMi",
+				"fromMin"
+			],
+			[
+				"from",
+				"fromMax"
+			],
+			[
+				"toMa",
+				"toMax"
+			],
+			[
+				"tota",
+				"total"
+			],
+			[
+				"prob",
+				"probability"
+			],
+			[
+				"randomFloa",
+				"randomFloat"
+			],
+			[
+				"randomfl",
+				"randomFloat"
+			],
+			[
+				"util",
+				"util.h\""
+			],
+			[
+				"rayli",
+				"raylib.h>"
+			],
+			[
+				"randomg",
+				"randomGaussian"
+			],
+			[
+				"sa",
+				"sample1"
+			],
+			[
+				"randgau",
+				"randomGaussian"
+			],
+			[
+				"sq",
+				"sqrt"
+			],
+			[
+				"RAN",
+				"RAND_MAX"
+			],
+			[
+				"samp",
+				"samples"
+			],
+			[
+				"vec",
+				"Vector2"
+			],
+			[
+				"D",
+				"DOT"
+			],
+			[
+				"sample",
+				"samples"
+			],
+			[
+				"sam",
+				"sample2"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"log",
+				"log"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"stdio",
+				"stdio.h>"
+			],
+			[
+				"sampl",
+				"sample1"
+			],
+			[
+				"sel",
+				"\"selector\""
+			],
+			[
+				"sele",
+				"\"selector\""
+			],
+			[
+				"tar",
+				"\"target\""
+			],
+			[
+				"file_",
+				"file_base_name"
+			],
+			[
+				"file",
+				"\"file_regex\""
+			],
+			[
+				"pro",
+				"project_path"
+			],
+			[
+				"work",
+				"\"working_dir\""
+			],
+			[
+				"cm",
+				"\"cmd\""
+			],
+			[
+				"na",
+				"\"name\""
+			],
+			[
+				"ic",
+				"inc\t#include <…>"
+			],
+			[
+				"Inc",
+				"Inc\t#include <…>"
+			],
+			[
+				"vecto",
+				"Vector2"
+			],
+			[
+				"randfloat",
+				"randomFloatBtwFloat"
+			],
+			[
+				"randombtf",
+				"randomFloatBtwFloat"
+			],
+			[
+				"randomFloatBtw",
+				"randomFloatBtwFloat"
+			],
+			[
+				"randomflo",
+				"randomFloat"
+			],
+			[
+				"prin",
+				"printf\tprintf …"
+			],
+			[
+				"randomfloa",
+				"randomFloat"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"randomint",
+				"randomIntFromArray"
+			],
+			[
+				"u",
+				"util.h\""
+			],
+			[
+				"random",
+				"randomCounts"
+			],
+			[
+				"rect",
+				"DrawRectangle"
+			],
+			[
+				"total",
+				"total_counts"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"rand",
+				"randomCounts"
+			],
+			[
+				"randomc",
+				"randomCounts"
+			],
+			[
+				"yste",
+				"ystep"
+			],
+			[
+				"xs",
+				"xstep"
+			],
+			[
+				"wa",
+				"walker"
+			],
+			[
+				"walk",
+				"walker"
+			],
+			[
+				"randomco",
+				"randomColor"
+			],
+			[
+				"scree",
+				"screenWidth"
+			],
+			[
+				"uti",
+				"util.h\""
+			],
+			[
+				"Vec",
+				"Vector2"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"inclu",
+				"include"
+			],
+			[
+				"Vectr",
+				"Vector4"
+			],
+			[
+				"Colo",
+				"Color"
+			],
+			[
+				"Vecto",
+				"Vector3"
+			],
+			[
+				"randomVec",
+				"randomVector2"
+			],
+			[
+				"move",
+				"moveDot"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wal",
+				"walker"
+			],
+			[
+				"drawDo",
+				"drawDot"
+			],
+			[
+				"COLO",
+				"Color"
+			],
+			[
+				"Do",
+				"Dot"
+			],
+			[
+				"ra",
+				"raylib_extended.h"
+			],
+			[
+				"st",
+				"struct"
+			],
+			[
+				"type",
+				"typedef"
+			],
+			[
+				"Drawpo",
+				"DrawPoint3D"
+			],
+			[
+				"add",
+				"add_executable"
+			],
+			[
+				"actionme",
+				"actionmenu"
+			],
+			[
+				"show",
+				"showMessage"
+			],
+			[
+				"menu",
+				"Menu"
+			],
+			[
+				"on",
+				"on_close"
+			],
+			[
+				"labe",
+				"label="
+			],
+			[
+				"comma",
+				"command="
+			],
+			[
+				"messa",
+				"message="
+			],
+			[
+				"ask",
+				"askyesno"
+			],
+			[
+				"me",
+				"messagebox"
+			],
+			[
+				"mess",
+				"showMessage"
+			],
+			[
+				"even",
+				"event"
+			],
+			[
+				"te",
+				"textbox"
+			],
+			[
+				"tex",
+				"textbox"
+			],
+			[
+				"sho",
+				"showinfo"
+			],
+			[
+				"ms",
+				"messagebox"
+			],
+			[
+				"impo",
+				"import"
+			],
+			[
+				"tkin",
+				"tkinter"
+			],
+			[
+				"text",
+				"text="
+			],
+			[
+				"che",
+				"checkVal"
+			],
+			[
+				"pad",
+				"pady="
+			],
+			[
+				"p",
+				"pack"
+			],
+			[
+				"Ce",
+				"Checkbutton"
+			],
+			[
+				"pac",
+				"pack"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"L",
+				"Label"
+			],
+			[
+				"tk",
+				"Tk"
+			],
+			[
+				"butt",
+				"buttonfram"
+			],
+			[
+				"col",
+				"column="
+			],
+			[
+				"font",
+				"font="
+			],
+			[
+				"con",
+				"configure"
+			],
+			[
+				"bu",
+				"buttonfram"
+			],
+			[
+				"fo",
+				"font="
+			],
+			[
+				"la",
+				"Label"
+			],
+			[
+				"ahk",
+				"ahk_class"
+			],
+			[
+				"chu",
+				"chunk_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Game/Script/Player.gd",
+			"settings":
+			{
+				"buffer_size": 4018,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"contents": "{\n\t\"folders\":\n\t[\n\t\t{\n\t\t\t\"path\": \".\"\n\t\t}\n\t],\n\t\"settings\": {\n        \"LSP\": {\n            \"clients\": {\n                \"gdscript-lsp\": {\n                    \"enabled\": true,\n                    \"command\": [\n                        \"~/.local/bin/godot\",\n                        \"--editor\",\n                        \"\",\n                        \"--quiet\",\n                        \"--headless\"\n                    ],\n                    \"selector\": \"source.gdscript\",\n                    \"tcp_port\": 6005\n                }\n            }\n        }\n    }\n}\n",
+			"file": "udemyPlatformer.sublime-project",
+			"file_size": 610,
+			"file_write_time": 134007123581350554,
+			"settings":
+			{
+				"buffer_size": 548,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAACoAAAAAAAAAKwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\nsee"
+					},
+					"BAAAACsAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAC8AAAAAAAAAMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					3,
+					"left_delete",
+					null,
+					"AwAAAC8AAAAAAAAALwAAAAAAAAABAAAAZS4AAAAAAAAALgAAAAAAAAABAAAAZS0AAAAAAAAALQAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "se"
+					},
+					"AgAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert_completion",
+					{
+						"completion": "\"settings\": {\n\t$0\n},",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "settings"
+					},
+					"AgAAAC0AAAAAAAAALQAAAAAAAAACAAAAc2UtAAAAAAAAAEEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAD0AAAAAAAAAQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					3,
+					"left_delete",
+					null,
+					"AwAAAD8AAAAAAAAAPwAAAAAAAAABAAAACT4AAAAAAAAAPgAAAAAAAAABAAAACT0AAAAAAAAAPQAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "lsp"
+					},
+					"AwAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					3,
+					"left_delete",
+					null,
+					"AwAAAD8AAAAAAAAAPwAAAAAAAAABAAAAcD4AAAAAAAAAPgAAAAAAAAABAAAAcz0AAAAAAAAAPQAAAAAAAAABAAAAbA",
+					"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "lsp"
+					},
+					"AwAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"copilot_accept_completion",
+					null,
+					"AgAAADsAAAAAAAAAOwAAAAAAAAAFAAAACQlsc3A7AAAAAAAAAHAHAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEMAAAAAAAAAQwAAAAAAAAAtBwAACgkJCSJhdXRvX3Nob3dfZGlhZ25vc3RpY3NfcGFuZWwiOiBmYWxzZSwKCQkJInNob3dfZGlhZ25vc3RpY3NfY291bnRfaW5fdmlld19zdGF0dXMiOiBmYWxzZSwKCQkJInNob3dfZGlhZ25vc3RpY3Nfc2V2ZXJpdHlfbGV2ZWwiOiA0LAoJCQkiZGlhZ25vc3RpY3NfaGlnaGxpZ2h0X3N0eWxlIjogInVuZGVybGluZSIsCgkJCSJvbmx5X3Nob3dfbHNwX2NvbXBsZXRpb25zIjogdHJ1ZSwKCQkJImNvbXBsZXRlX2FsbF9jaGFycyI6IHRydWUsCgkJCSJjb21wbGV0aW9uX2hpbnRfdHlwZSI6ICJhdXRvIiwKCQkJImNvbXBsZXRpb25fZW5hYmxlX3NuaXBwZXRzIjogdHJ1ZSwKCQkJImRvY3VtZW50X2hpZ2hsaWdodF9zdHlsZSI6ICJ1bmRlcmxpbmUiLAoJCQkiY29kZV9hY3Rpb25zX29uX3NhdmUiOiB7CgkJCQkic291cmNlLm9yZ2FuaXplSW1wb3J0cyI6IHRydWUKCQkJfSwKCQkJImxvZ19kZWJ1ZyI6IGZhbHNlLAoJCQkibG9nX3NlcnZlciI6IGZhbHNlLAoJCQkibG9nX3N0ZGVyciI6IGZhbHNlLAoJCQkic2hvd19jb2RlX2FjdGlvbnNfYnVsYiI6IHRydWUsCgkJCSJzaG93X3N5bWJvbF9hY3Rpb25fbGlua3MiOiB0cnVlLAoJCQkic3ltYm9sX2FjdGlvbl9saW5rc19wb3NpdGlvbiI6ICJ0b3AiLAoJCQkib25seV9zaG93X2xzcF9zeW1ib2xzIjogdHJ1ZSwKCQkJInN5bWJvbF9oaWdobGlnaHRfc3R5bGUiOiAidW5kZXJsaW5lIiwKCQkJImRpYWdub3N0aWNzX2d1dHRlcl9tYXJrZXIiOiAiZG90IiwKCQkJImRpYWdub3N0aWNzX3BoYW50b21zX2VuYWJsZWQiOiBmYWxzZSwKCQkJImRpYWdub3N0aWNzX3BoYW50b21zX2xheW91dCI6ICJjb21wYWN0IiwKCQkJImRpYWdub3N0aWNzX3BoYW50b21zX2JvcmRlcl93aWR0aCI6IDEsCgkJCSJkaWFnbm9zdGljc19waGFudG9tc19ib3JkZXJfY29sb3IiOiAidmFyKC0tZm9yZWdyb3VuZCkiLAoJCQkiZGlhZ25vc3RpY3NfcGhhbnRvbXNfYmFja2dyb3VuZF9jb2xvciI6ICJ2YXIoLS1iYWNrZ3JvdW5kKSIsCgkJCSJhdXRvX3Nob3dfY29kZV9hY3Rpb25zX3BhbmVsIjogZmFsc2UsCgkJCSJjb2RlX2FjdGlvbnNfcGFuZWxfaW5jbHVkZV9kaWFnbm9zdGljc19zdW1tYXJ5IjogZmFsc2UsCgkJCSJjb2RlX2FjdGlvbnNfcGFuZWxfc2hvd19kaXNhYmxlZF9hY3Rpb25zIjogZmFsc2UsCgkJCSJjb2RlX2FjdGlvbnNfcGFuZWxfc2hvd19oZWFkZXJzIjogZmFsc2UsCgkJCSJjb2RlX2FjdGlvbnNfcGFuZWxfZm9jdXNlZF9vbmx5IjogdHJ1ZSwKCQkJImNvZGVfYWN0aW9uc19wYW5lbF9hdXRvX3ByZXZpZXciOiB0cnVlLAoJCQkiY29kZV9hY3Rpb25zX3BhbmVsX3Bvc2l0aW9uIjogImJvdHRvbSIsCgkJCSJjb2RlX2FjdGlvbnNfcGFuZWxfbWF4X2hlaWdodCI6IDEwLAoJCQkiY29kZV9hY3Rpb25zX3BhbmVsX3dyYXBfd2lkdGgiOiA4MCwKCQkJImxzcF9jb2RlX2FjdGlvbnNfZXhwZXJpbWVudGFsX2VuYWJsZWQiOiBmYWxzZSwKCQkJImxzcF9jb2RlX2FjdGlvbnNfZXhwZXJpbWVudGFsX3Nob3dfYWx3YXlzX2F2YWlsYWJsZV9hY3Rpb25zIjogZmFsc2UsCgkJCSJsc3BfY29kZV9hY3Rpb25zX2V4cGVyaW1lbnRhbF9zaG93X2Rpc2FibGVkX2FjdGlvbnMiOiBmYWxzZSwKCQkJImxzcF9jb2RlX2FjdGlvbnNfZXhwZXJpbWVudGFsX3Nob3dfaGVhZGVycyI6IGZhbHNlLAoJCQkibHNwX2NvZGVfYWN0aW9uc19leHBlcmltZW50YWxfZm9jdXNlZF9vbmx5IjogdHJ1ZSwKCQkJImxzcF9jb2RlX2FjdGlvbnNfZXhwZXJpbWVudGFsX2F1dG9fcHJldmlldyI6IHRydWUsCgkJCSJsc3BfY29kZV9hY3Rpb25zX2V4cGVyaW1lbnRhbF9wb3NpdGlvbiI6ICJib3R0b20iLAoJCQkibHNwX2NvZGVfYWN0aW9ucw",
+					"AQAAAAAAAAABAAAAcAcAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "]"
+					},
+					"AQAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEMAAAAAAAAAQwAAAAAAAAABAAAAXQ",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEEAAAAAAAAAQQAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					4,
+					"left_delete",
+					null,
+					"BAAAAD0AAAAAAAAAPQAAAAAAAAAJAAAAbHNwOnsKCX0sPAAAAAAAAAA8AAAAAAAAAAEAAAAJOwAAAAAAAAA7AAAAAAAAAAEAAAAJOgAAAAAAAAA6AAAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAARgAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAADoAAAAAAAAAPQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					5,
+					"left_delete",
+					null,
+					"BQAAADwAAAAAAAAAPAAAAAAAAAABAAAACTsAAAAAAAAAOwAAAAAAAAABAAAACToAAAAAAAAAOgAAAAAAAAABAAAACjkAAAAAAAAAOQAAAAAAAAABAAAAezgAAAAAAAAAOAAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAADgAAAAAAAAAOgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					2,
+					"left_delete",
+					null,
+					"AgAAADkAAAAAAAAAOQAAAAAAAAABAAAACTgAAAAAAAAAOAAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADgAAAAAAAAAOQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAADkAAAAAAAAAOwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\n\t$0\n"
+					},
+					"AQAAADoAAAAAAAAAPwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					3,
+					"left_delete",
+					null,
+					"AwAAADwAAAAAAAAAPAAAAAAAAAABAAAACTsAAAAAAAAAOwAAAAAAAAABAAAACToAAAAAAAAAOgAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					4,
+					"left_delete",
+					null,
+					"BAAAADwAAAAAAAAAPAAAAAAAAAABAAAAXTsAAAAAAAAAOwAAAAAAAAABAAAACToAAAAAAAAAOgAAAAAAAAABAAAACjkAAAAAAAAAOQAAAAAAAAABAAAAWw",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAYGhA"
+				],
+				[
+					45,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAADkAAAAAAAAAOwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BAAAADoAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA+AAAAAAAAAAAAAAA7AAAAAAAAADsAAAAAAAAAAQAAAAk7AAAAAAAAAD0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "lsp:"
+					},
+					"BAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEEAAAAAAAAAQgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAEIAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BAAAAEMAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABJAAAAAAAAAAAAAABEAAAAAAAAAEQAAAAAAAAAAgAAAAkJRAAAAAAAAABHAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					1,
+					"paste",
+					null,
+					"AQAAAC0AAAAAAAAARQIAAAAAAAAhAAAAInNldHRpbmdzIjogewoJCWxzcDogewoJCQkKCQl9Cgl9",
+					"AQAAAAAAAAABAAAALQAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					99,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAADoBAAAAAAAAOwEAAAAAAAAiAAAAcGF0aF90b195b3VyX3Byb2plY3QvcHJvamVjdC5nb2RvdA",
+					"AQAAAAAAAAABAAAAXAEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					105,
+					3,
+					"left_delete",
+					null,
+					"AwAAADoBAAAAAAAAOgEAAAAAAAABAAAALjkBAAAAAAAAOQEAAAAAAAABAAAALzgBAAAAAAAAOAEAAAAAAAABAAAAfg",
+					"AQAAAAAAAAABAAAAOwEAAAAAAAA7AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					106,
+					1,
+					"insert",
+					{
+						"characters": "$path"
+					},
+					"BQAAADgBAAAAAAAAOQEAAAAAAAAAAAAAOQEAAAAAAAA6AQAAAAAAAAAAAAA6AQAAAAAAADsBAAAAAAAAAAAAADsBAAAAAAAAPAEAAAAAAAAAAAAAPAEAAAAAAAA9AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAEAAAAAAAA4AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					107,
+					5,
+					"left_delete",
+					null,
+					"BQAAADwBAAAAAAAAPAEAAAAAAAABAAAAaDsBAAAAAAAAOwEAAAAAAAABAAAAdDoBAAAAAAAAOgEAAAAAAAABAAAAYTkBAAAAAAAAOQEAAAAAAAABAAAAcDgBAAAAAAAAOAEAAAAAAAABAAAAJA",
+					"AQAAAAAAAAABAAAAPQEAAAAAAAA9AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					108,
+					1,
+					"insert",
+					{
+						"characters": "{"
+					},
+					"AQAAADgBAAAAAAAAOQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAEAAAAAAAA4AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"left_delete",
+					null,
+					"AQAAADgBAAAAAAAAOAEAAAAAAAABAAAAew",
+					"AQAAAAAAAAABAAAAOQEAAAAAAAA5AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					110,
+					1,
+					"insert",
+					{
+						"characters": "/P{"
+					},
+					"AwAAADgBAAAAAAAAOQEAAAAAAAAAAAAAOQEAAAAAAAA6AQAAAAAAAAAAAAA6AQAAAAAAADsBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAEAAAAAAAA4AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					111,
+					3,
+					"left_delete",
+					null,
+					"AwAAADoBAAAAAAAAOgEAAAAAAAABAAAAezkBAAAAAAAAOQEAAAAAAAABAAAAUDgBAAAAAAAAOAEAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAOwEAAAAAAAA7AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					112,
+					1,
+					"insert",
+					{
+						"characters": "{}"
+					},
+					"AgAAADgBAAAAAAAAOQEAAAAAAAAAAAAAOQEAAAAAAAA6AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAEAAAAAAAA4AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					115,
+					2,
+					"left_delete",
+					null,
+					"AgAAADkBAAAAAAAAOQEAAAAAAAABAAAAfTgBAAAAAAAAOAEAAAAAAAABAAAAew",
+					"AQAAAAAAAAABAAAAOgEAAAAAAAA6AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					116,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAADgBAAAAAAAAOQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAEAAAAAAAA4AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					118,
+					1,
+					"left_delete",
+					null,
+					"AQAAADgBAAAAAAAAOAEAAAAAAAABAAAAMQ",
+					"AQAAAAAAAAABAAAAOQEAAAAAAAA5AQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_custom_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - build_and_run_perlin_graph",
+					""
+				],
+				[
+					"noc - build_and_run_perlin_noise",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - custom_distribution",
+					""
+				],
+				[
+					"noc - custom_distribution/fast",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd/fast",
+					""
+				],
+				[
+					"noc - perlin_graph",
+					""
+				],
+				[
+					"noc - perlin_graph/fast",
+					""
+				],
+				[
+					"noc - perlin_noise",
+					""
+				],
+				[
+					"noc - perlin_noise/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_custom_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - run_perlin_graph",
+					""
+				],
+				[
+					"noc - run_perlin_noise",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"noc - build_and_run_perlin_noise",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_custom_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - build_and_run_perlin_graph",
+					""
+				],
+				[
+					"noc - build_and_run_perlin_noise",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - custom_distribution",
+					""
+				],
+				[
+					"noc - custom_distribution/fast",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd/fast",
+					""
+				],
+				[
+					"noc - perlin_graph",
+					""
+				],
+				[
+					"noc - perlin_graph/fast",
+					""
+				],
+				[
+					"noc - perlin_noise",
+					""
+				],
+				[
+					"noc - perlin_noise/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_custom_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - run_perlin_graph",
+					""
+				],
+				[
+					"noc - run_perlin_noise",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"noc - build_and_run_perlin_noise",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_custom_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - build_and_run_perlin_graph",
+					""
+				],
+				[
+					"noc - build_and_run_perlin_noise",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - custom_distribution",
+					""
+				],
+				[
+					"noc - custom_distribution/fast",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd/fast",
+					""
+				],
+				[
+					"noc - perlin_graph",
+					""
+				],
+				[
+					"noc - perlin_graph/fast",
+					""
+				],
+				[
+					"noc - perlin_noise",
+					""
+				],
+				[
+					"noc - perlin_noise/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_custom_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - run_perlin_graph",
+					""
+				],
+				[
+					"noc - run_perlin_noise",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"noc - build_and_run_random_walker",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_custom_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - build_and_run_perlin_noise",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - custom_distribution",
+					""
+				],
+				[
+					"noc - custom_distribution/fast",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd/fast",
+					""
+				],
+				[
+					"noc - perlin_noise",
+					""
+				],
+				[
+					"noc - perlin_noise/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_custom_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - run_perlin_noise",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"noc - rebuild_cache",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_custom_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - custom_distribution",
+					""
+				],
+				[
+					"noc - custom_distribution/fast",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_custom_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"noc - rebuild_cache",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - normal_distribution_mean_sd/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_normal_distribution_mean_sd",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"noc - build_and_run_normal_distribution_mean_sd",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"noc - rebuild_cache",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - build_and_run_runner",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"noc - run_runner",
+					""
+				],
+				[
+					"noc - runner",
+					""
+				],
+				[
+					"noc - runner/fast",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"noc - build_and_run_runner",
+				""
+			]
+		],
+		[
+			[
+				[
+					"noc - all",
+					""
+				],
+				[
+					"noc - build_and_run_normal_distribution",
+					""
+				],
+				[
+					"noc - build_and_run_pseudo_random",
+					""
+				],
+				[
+					"noc - build_and_run_random_dist",
+					""
+				],
+				[
+					"noc - build_and_run_random_walker",
+					""
+				],
+				[
+					"noc - clean",
+					""
+				],
+				[
+					"noc - edit_cache",
+					""
+				],
+				[
+					"noc - normal_distribution",
+					""
+				],
+				[
+					"noc - normal_distribution/fast",
+					""
+				],
+				[
+					"noc - pseudo_random",
+					""
+				],
+				[
+					"noc - pseudo_random/fast",
+					""
+				],
+				[
+					"noc - random_dist",
+					""
+				],
+				[
+					"noc - random_dist/fast",
+					""
+				],
+				[
+					"noc - random_walker",
+					""
+				],
+				[
+					"noc - random_walker/fast",
+					""
+				],
+				[
+					"noc - rebuild_cache",
+					""
+				],
+				[
+					"noc - run_normal_distribution",
+					""
+				],
+				[
+					"noc - run_pseudo_random",
+					""
+				],
+				[
+					"noc - run_random_dist",
+					""
+				],
+				[
+					"noc - run_random_walker",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"noc - rebuild_cache",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"activate",
+				"ayu: Activate theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"colo ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"copilot",
+				"Copilot: Chat"
+			],
+			[
+				"sign in ",
+				"Copilot: Sign In"
+			],
+			[
+				"sign in",
+				"Copilot: Sign In"
+			],
+			[
+				"copilotsi",
+				"Copilot: Sign In"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"th",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"origa",
+				"Origami: Create Pane on the Left"
+			],
+			[
+				"forma",
+				"LSP: Format Selection"
+			],
+			[
+				"format",
+				"LSP: Format File"
+			],
+			[
+				"chang",
+				"Git: Change Branch"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"add a",
+				"Git: Add All"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"lsp",
+				"LSP: Format File"
+			],
+			[
+				"list pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"rebuil",
+				"Build With: noc - rebuild_cache"
+			],
+			[
+				"rename",
+				"File: Rename File"
+			],
+			[
+				"change",
+				"Git: Change Branch"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"branc",
+				"Git: Change Branch"
+			],
+			[
+				"psuh",
+				"Git: Push"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git cha",
+				"Git: Change Branch"
+			],
+			[
+				"chckou",
+				"Git: Checkout Tag"
+			],
+			[
+				"stash",
+				"Git: Stash Changes"
+			],
+			[
+				"gti comm",
+				"Git: Commit"
+			],
+			[
+				"git chan",
+				"Git: Change Branch"
+			],
+			[
+				"renam",
+				"File: Rename File"
+			],
+			[
+				"git bran",
+				"Git: Track Remote Branch"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
+				"chan",
+				"Git: Change Branch"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"oe",
+				"Open Containing Folder…"
+			],
+			[
+				"add ",
+				"Git: Add All"
+			],
+			[
+				"psh",
+				"Permute Lines: Shuffle"
+			],
+			[
+				"ope",
+				"Open Containing Folder…"
+			],
+			[
+				"cance",
+				"Build: Cancel"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"new buil",
+				"Build: New Build System"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"add all",
+				"Git: Add All"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"zoom",
+				"Origami: Zoom Current Pane"
+			],
+			[
+				"warp",
+				"Wrap at Ruler"
+			],
+			[
+				"zoo",
+				"Origami: Zoom Current Pane"
+			],
+			[
+				"open",
+				"Open Containing Folder…"
+			],
+			[
+				"add add",
+				"Git: Add All"
+			],
+			[
+				"gitadd",
+				"Git: Add All"
+			],
+			[
+				"origame",
+				"Origami: Zoom Current Pane"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"prefeori",
+				"Preferences: Origami Key Bindings"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"vpf",
+				"View Package File"
+			],
+			[
+				"cancel",
+				"Build: Cancel"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"preferene",
+				"Preferences: Rust Enhanced Settings"
+			],
+			[
+				"settings",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"cane",
+				"Build: Cancel"
+			],
+			[
+				"save ",
+				"Project: Save As"
+			],
+			[
+				"shell",
+				"Terminus: List Shells"
+			],
+			[
+				"nrw snipp",
+				"PackageDev: New Raw Snippet"
+			],
+			[
+				"prefter",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"termi",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"can",
+				"Build: Cancel"
+			],
+			[
+				"pyrigh",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"snippet",
+				"PackageDev: New Raw Snippet"
+			],
+			[
+				"gd",
+				"LSP: Goto Declaration"
+			],
+			[
+				"lsp ",
+				"LSP: Goto Definition"
+			],
+			[
+				"gtd",
+				"LSP: Goto Type Definition"
+			],
+			[
+				"lsgd",
+				"LSP: Goto Declaration"
+			],
+			[
+				"lspgt",
+				"LSP: Goto Type Definition"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pakc",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"lsp gtd",
+				"LSP: Goto Type Definition"
+			],
+			[
+				"open contai",
+				"Open Containing Folder…"
+			],
+			[
+				"op",
+				"Open Containing Folder…"
+			],
+			[
+				"open cin",
+				"Open Containing Folder…"
+			],
+			[
+				"shells",
+				"Terminus: List Shells"
+			],
+			[
+				"teminus",
+				"Terminus: Close"
+			],
+			[
+				"enable",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable ",
+				"Package Control: Enable Package"
+			],
+			[
+				"browse pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"lsp disa",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"configure",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"pyright",
+				"Preferences: LSP-pyright Settings"
+			],
+			[
+				"lspsett",
+				"Preferences: LSP-pylsp Settings"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"canc",
+				"Build: Cancel"
+			],
+			[
+				"lspjson",
+				"Preferences: LSP-json Settings"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				":w",
+				":wq - Save and Quit"
+			],
+			[
+				"disbale",
+				"Package Control: Disable Package"
+			],
+			[
+				"terminus pre",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"pylsp",
+				"Preferences: LSP-pylsp Settings"
+			],
+			[
+				"preferencespyl",
+				"Preferences: LSP-pylsp Settings"
+			],
+			[
+				"virtual",
+				"Build With: Python + Virtualenv"
+			],
+			[
+				"lsp pref",
+				"Preferences: LSP Settings"
+			],
+			[
+				"newbuil",
+				"PackageDev: New Build System"
+			],
+			[
+				"newsnipp",
+				"PackageDev: New Raw Snippet"
+			],
+			[
+				"lspenal",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"language",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp pre",
+				"Preferences: LSP Settings"
+			],
+			[
+				"codeac",
+				"LSP: Code Action…"
+			],
+			[
+				"terminu",
+				"Terminus: List Shells"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"oepn",
+				"Open Containing Folder…"
+			],
+			[
+				"terminus settings",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"terminus",
+				"Terminus: List Shells"
+			],
+			[
+				"settings termi",
+				"Preferences: Terminus Settings"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import os; path=sublime.packages_path(); (os.makedirs(path) if not os.path.exists(path) else None); window.run_command('exec', {'cmd': ['git', 'clone', 'https://github.com/dementive/SublimeGodot', 'SublimeGodot'], 'working_dir': path})",
+			"ls",
+			"print(\"Hello\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Dev/Godot/udemyplatformer",
+		"/E/Dev/Godot/udemyplatformer/Exports",
+		"/E/Dev/Godot/udemyplatformer/Game",
+		"/E/Dev/Godot/udemyplatformer/Game/Scene",
+		"/E/Dev/Godot/udemyplatformer/Game/Script"
+	],
+	"file_history":
+	[
+		"/E/Dev/Godot/udemyplatformer/Game/Script/Player.gd:0:{column}",
+		"/E/Dev/C/natureofcode/include/stb_perlin.h",
+		"/E/Dev/C/natureofcode/src/1_Randomness/perlin_noise.c",
+		"/C/Users/Supragy/Downloads/client_secret_2_1047904138508-gnk35hk9cor91lb7jorml67r16nh7bbc.apps.googleusercontent.com.json",
+		"/C/Users/Supragy/Downloads/aiyvoice-465319-578fe6a1233b.json",
+		"/E/Dev/C/natureofcode/src/addon_src/raylib_extended.c",
+		"/E/Dev/C/natureofcode/src/addon_src/util.c",
+		"/E/Dev/C/natureofcode/include/util.h",
+		"/E/Dev/C/natureofcode/include/raylib_extended.h",
+		"/C/Users/Supragy/Downloads/Jul 10, 2025 03-38-05 PM Markdown Content.md",
+		"/E/Dev/C/natureofcode/src/1_Randomness/normal_distribution_mean_sd.c",
+		"/E/Dev/C/natureofcode/src/1_Randomness/random_walker.c",
+		"/E/Dev/C/natureofcode/src/1_Randomness/perlin_graph.c",
+		"/C/Users/Supragy/AppData/Local/SumatraPDF/SumatraPDF-settings.txt",
+		"/E/Dev/C/natureofcode/build/noc.sublime-project",
+		"/E/Dev/C/natureofcode/CmakeLists.txt",
+		"/E/Dev/C/natureofcode/public/perlin_noise/index.html",
+		"/C/Program Files (x86)/Windows Kits/10/Include/10.0.22000.0/ucrt/corecrt_math.h",
+		"/E/Dev/C/dotsConnect/src/main.c",
+		"/E/Dev/C/natureofcode/content/main.html",
+		"/E/Dev/C/natureofcode/TODO",
+		"/E/Dev/C/natureofcode/Makefile",
+		"/E/raylib/w64devkit/external/include/raylib.h",
+		"/E/Dev/C/natureofcode/src/1_Randomness/custom_distribution.c",
+		"/C/Users/Supragy/AppData/Local/Programs/omniverse-launcher/output_data.json",
+		"/C/Users/Supragy/Desktop/wheelurdf/weel/urdf/weel.urdf",
+		"/E/Dev/C/natureofcode/.gitignore",
+		"/C/Users/Supragy/AppData/Roaming/Sublime Text/Packages/PlainTasks/messages/Tutorial.todo",
+		"/E/Dev/C/natureofcode/src/1_Randomness/normal_distribution.c",
+		"/E/Dev/C/natureofcode/.github/workflows/deploy.yml",
+		"/E/Dev/C/natureofcode/src/1_Randomness/runner.c",
+		"/E/Dev/C/natureofcode/content/Randomness.md",
+		"/E/Dev/C/natureofcode/src/1_Randomness/pseudo_random.c",
+		"/E/Dev/C/natureofcode/.gitmodules",
+		"/E/Dev/C/natureofcode/github/workflows/deploy.yml",
+		"/E/Dev/C/natureofcode/quartz/.github/workflows/deploy.yml",
+		"/E/raylib/w64devkit/external/include/raymath.h",
+		"/E/Dev/C/natureofcode/webbuild/.github/deploy.yml",
+		"/E/Dev/C/natureofcode/webbuild/content/index.html",
+		"/E/Dev/C/natureofcode/webbuild/.github/deplot.yml",
+		"/E/Dev/C/natureofcode/webbuild/quartz.config.ts",
+		"/E/Dev/C/natureofcode/webbuild/quartz.layout.ts",
+		"/E/Dev/C/natureofcode/webbuild/content/main.html",
+		"/E/Dev/C/natureofcode/webbuild/docs/configuration.md",
+		"/E/Dev/C/natureofcode/public/main.html",
+		"/E/Dev/C/natureofcode/webbuild/content/index.md",
+		"/C/Users/Supragy/AppData/Roaming/Sublime Text/Packages/User/make_example.sublime-build",
+		"/E/Dev/C/natureofcode/Build_example_HTML.sublime-build",
+		"/E/Dev/C/natureofcode/main.py",
+		"/E/Dev/C/natureofcode/.github/workflows/static.yml",
+		"/E/Dev/C/natureofcode/.git/COMMIT_EDITMSG",
+		"/E/Dev/C/natureofcode/src/1_Randomness/random_dist.c",
+		"/E/Dev/C/natureofcode/webbuild/index.html",
+		"/E/Dev/C/natureofcode/webuild/index.html",
+		"/E/Dev/C/natureofcode/src/snake.c",
+		"/E/Dev/C/natureofcode/src/1 Randomness/random_walker.c",
+		"/E/Dev/C/natureofcode/src/1.3_pseudo_random_numbers/pseudorandom.c",
+		"/E/Dev/C/natureofcode/src/1.3_pseudo_random_numbers/pseudo_random.c",
+		"/E/Dev/C/natureofcode/src/1.1_random_walker/random_walker.c",
+		"/E/Dev/C/natureofcode/src/1.2_random_dist/random_dist.c",
+		"/E/Dev/C/natureofcode/src/chap1/random_walker.c",
+		"/E/Dev/C/natureofcode/src/chap2/new.c",
+		"/E/Dev/C/natureofcode/src/util.c",
+		"/E/Dev/C/natureofcode/src/raylib_extended.c",
+		"/E/Dev/C/natureofcode/src/main.c",
+		"/E/Dev/C/natureofcode/README.md",
+		"/C/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/utility",
+		"/E/Dev/C/natureofcode/include/raylib_extended.c",
+		"/C/Users/Supragy/AppData/Roaming/Sublime Text/Packages/User/raylib_base.sublime-snippet",
+		"/C/Users/Supragy/AppData/Roaming/Sublime Text/Packages/PackageDev/Package/Sublime Text Snippet/Snippet.sublime-snippet",
+		"/C/Users/Supragy/AppData/Roaming/Sublime Text/Packages/C++ Starting Kit/Enumeration.sublime-snippet",
+		"/E/raylib/raylib/build/raylib/include/raymath.h",
+		"/E/Supragy/Documents/Obsidian Vaults/notes/script_videogames_quickAdd.js",
+		"/E/raylib/raylib/projects/4coder/main.c",
+		"/E/raylib/raylib/examples/core/core_2d_camera.c",
+		"/E/Dev/C/dotsConnect/CMakeLists.txt",
+		"/E/Dev/PythonProjects/test_scripts/add_to_obsidian.py",
+		"/E/Dev/PythonProjects/test_scripts/sort_downloads.py",
+		"/E/Dev/PythonProjects/test_scripts/main.py",
+		"/C/Users/mishr/Desktop/media.ahk",
+		"/C/Dev/PythonProjects/test_scripts/split_data_export.py",
+		"/C/Dev/PythonProjects/test_scripts/argparse_tutorial.py",
+		"/C/Dev/PythonProjects/test_scripts/test.txt",
+		"/C/Dev/PythonProjects/test_scripts/main.py",
+		"/C/Dev/PythonProjects/test_scripts/new.txt",
+		"/C/Dev/PythonProjects/cython/split_data_export.py",
+		"/C/Dev/PythonProjects/cython/test.txt",
+		"/C/Dev/C/mujoco/sample/Makefile",
+		"/C/Dev/PythonProjects/pygame/Scripts/mengerSponge/sponge.py",
+		"/C/Users/mishr/AppData/Local/Temp/74115791-4d17-4f29-ac5e-ab6fa6145443_p5.zip.443/p5/p5.js",
+		"/C/Users/mishr/AppData/Roaming/Sublime Text/Packages/User/pygame.sublime-snippet",
+		"/C/Dev/PythonProjects/pygame/Scripts/starfield/starfield.py",
+		"/C/Users/mishr/AppData/Roaming/Sublime Text/Packages/User/init.sublime-snippet",
+		"/C/Dev/PythonProjects/pygame/Scripts/util.py",
+		"/C/Dev/PythonProjects/pygame/Scripts/starfield.py",
+		"/C/Dev/PythonProjects/pygame/Scripts/new.py",
+		"/C/Dev/PythonProjects/pygame/pyrightconfig.json",
+		"/C/Users/mishr/AppData/Roaming/Python/Python311/site-packages/pygame/draw.pyi",
+		"/C/Dev/PythonProjects/pygame/Scripts/slingshot.py",
+		"/C/Users/mishr/AppData/Roaming/Python/Python311/site-packages/pygame/__init__.py",
+		"/C/Dev/PythonProjects/pygame/Scripts/ball.py",
+		"/D/Dev/C/physics/include/mathlib.h",
+		"/C/Dev/PythonProjects/pygame/Scripts/boids.py",
+		"/C/Users/mishr/AppData/Roaming/Python/Python311/site-packages/pygame/key.pyi",
+		"/C/Dev/PythonProjects/pygame/Scripts/spring.py",
+		"/C/Users/mishr/AppData/Roaming/Python/Python311/site-packages/pygame/time.pyi",
+		"/C/Users/mishr/AppData/Roaming/Python/Python311/site-packages/pygame/event.pyi",
+		"/C/Users/mishr/AppData/Roaming/Python/Python311/site-packages/pygame/base.pyi",
+		"/C/Users/mishr/AppData/Roaming/Python/Python311/site-packages/pygame/surface.pyi",
+		"/C/Dev/PythonProjects/pygame/Scripts/main.py",
+		"/C/Dev/C/opengl/src/main.c",
+		"/C/Dev/PythonProjects/manim_ce/media/videos/main/1080p60/Anim.mp4",
+		"/C/Dev/PythonProjects/manim_ce/media/videos/main/1080p60/ContinuousMotion.mp4",
+		"/C/Dev/PythonProjects/manim_ce/main.py",
+		"/C/Dev/PythonProjects/manim_ce/media/videos/default/1080p60/Surfaces.mp4",
+		"/C/Dev/PythonProjects/manim_ce/updater.py",
+		"/C/Users/mishr/Desktop/data.csv",
+		"/C/Dev/PythonProjects/manim_ce/default.py",
+		"/C/Program Files/Python311/Lib/site-packages/manim/scene/scene.py",
+		"/C/Dev/PythonProjects/manim_ce/fallingball.py",
+		"/C/Dev/PythonProjects/manim_ce/manim.sublime-project",
+		"/C/Dev/PythonProjects/manim_ce/Makefile",
+		"/C/Program Files/Python311/Lib/types.py",
+		"/C/Dev/PythonProjects/manim_ce/dmain.py",
+		"/C/Dev/PythonProjects/manim_ce/main3.py",
+		"/C/Dev/PythonProjects/manim_ce/media/videos/main/1080p60/StreamFlow.mp4",
+		"/C/Dev/PythonProjects/manim_ce/pyrightconfig.json",
+		"/C/Dev/PythonProjects/manim_ce/manim/Lib/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 253.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Game/Script/Player.gd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion._is_saving": false,
+							"copilot.completion.is_visible": false,
+							"copilot.completion.is_visible_panel_completions": false,
+							"copilot.completion.is_waiting_completion": false,
+							"copilot.completion.is_waiting_panel_completions": false,
+							"copilot.completion.original_layout": null,
+							"lsp_active": true,
+							"lsp_uri": "file:///E:/Dev/Godot/udemyplatformer/Game/Script/Player.gd",
+							"show_definitions": true,
+							"syntax": "Packages/SublimeGodot/gdscript/GDScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "udemyPlatformer.sublime-project",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"selector": "meta.mapping.key punctuation.definition.string.begin - meta.setting-value.sublime-settings meta.mapping.value"
+								}
+							],
+							"copilot.completion._is_modified": false,
+							"copilot.completion._is_saving": false,
+							"copilot.completion.completion_index": 0,
+							"copilot.completion.completion_style": "popup",
+							"copilot.completion.completions":
+							[
+								{
+									"displayText": "0\",\n\t\t\t\t\t\t",
+									"docVersion": 125,
+									"point": 313,
+									"position":
+									{
+										"character": 26,
+										"line": 15
+									},
+									"range":
+									{
+										"end":
+										{
+											"character": 28,
+											"line": 15
+										},
+										"start":
+										{
+											"character": 0,
+											"line": 15
+										}
+									},
+									"region":
+									[
+										287,
+										315
+									],
+									"text": "                        \"10\",\n\t\t\t\t\t\t",
+									"uuid": "562d6e1b-f9db-4d61-8ada-abb8eb0c5e70"
+								}
+							],
+							"copilot.completion.is_visible": false,
+							"copilot.completion.is_visible_panel_completions": false,
+							"copilot.completion.is_waiting_completion": true,
+							"copilot.completion.is_waiting_panel_completions": false,
+							"copilot.completion.original_layout": null,
+							"lsp_active": true,
+							"lsp_uri": "file:///E:/Dev/Godot/udemyplatformer/udemyPlatformer.sublime-project",
+							"show_definitions": true,
+							"syntax": "Packages/PackageDev/Package/Sublime Text Project/Sublime Text Project.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 108.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.Powershell":
+	{
+		"height": 498.0,
+		"history":
+		[
+		]
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 558.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.git":
+	{
+		"height": 150.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups-dummy":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "udemyPlatformer.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"player",
+				"Game\\Script\\Player.gd"
+			],
+			[
+				"perlin",
+				"src\\1_Randomness\\perlin_noise.c"
+			],
+			[
+				"mperlin",
+				"src\\1_Randomness\\perlin_noise.c"
+			],
+			[
+				"meansd",
+				"src\\1_Randomness\\normal_distribution_mean_sd.c"
+			],
+			[
+				"randomwalk",
+				"src\\1_Randomness\\random_walker.c"
+			],
+			[
+				"proj",
+				"build\\noc.sublime-project"
+			],
+			[
+				"cmake",
+				"CmakeLists.txt"
+			],
+			[
+				"do",
+				"Dockerfile"
+			],
+			[
+				"util",
+				"src\\addon_src\\util.c"
+			],
+			[
+				"extended",
+				"src\\addon_src\\raylib_extended.c"
+			],
+			[
+				".h",
+				"include\\util.h"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"subli",
+				"build\\noc.sublime-project"
+			],
+			[
+				"todo",
+				"TODO"
+			],
+			[
+				"sublime",
+				"build\\noc.sublime-project"
+			],
+			[
+				"norma",
+				"src\\1_Randomness\\normal_distribution_mean_sd.c"
+			],
+			[
+				"rayli",
+				"src\\addon_src\\raylib_extended.c"
+			],
+			[
+				"uti",
+				"src\\addon_src\\util.c"
+			],
+			[
+				"normal",
+				"src\\1_Randomness\\normal_distribution.c"
+			],
+			[
+				"deplo",
+				".github\\workflows\\deploy.yml"
+			],
+			[
+				"sum",
+				"build\\noc.sublime-project"
+			],
+			[
+				"ray.h",
+				"include\\raylib_extended.h"
+			],
+			[
+				"util.c",
+				"src\\addon_src\\util.c"
+			],
+			[
+				"rayliex",
+				"src\\addon_src\\raylib_extended.c"
+			],
+			[
+				"norm",
+				"src\\1_Randomness\\normal_distribution.c"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"random",
+				"src\\1_Randomness\\random_walker.c"
+			],
+			[
+				"main",
+				"webbuild\\content\\main.html"
+			],
+			[
+				"quconfts",
+				"webbuild\\quartz.config.ts"
+			],
+			[
+				"config.ts",
+				"webbuild\\quartz.config.ts"
+			],
+			[
+				"conf",
+				"webbuild\\docs\\configuration.md"
+			],
+			[
+				"config",
+				"webbuild\\docs\\configuration.md"
+			],
+			[
+				"pseu",
+				"src\\1_Randomness\\pseudo_random.c"
+			],
+			[
+				"sublim",
+				"build\\noc.sublime-project"
+			],
+			[
+				"pse",
+				"src\\1_Randomness\\pseudo_random.c"
+			],
+			[
+				"in",
+				"webbuild\\index.html"
+			],
+			[
+				"mak",
+				"Makefile"
+			],
+			[
+				"snake",
+				"src\\snake.c"
+			],
+			[
+				"pseudo",
+				"src\\1_Randomness\\pseudo_random.c"
+			],
+			[
+				"proje",
+				"build\\noc.sublime-project"
+			],
+			[
+				"ran",
+				"src\\1_Randomness\\random_walker.c"
+			],
+			[
+				"subl",
+				"build\\noc.sublime-project"
+			],
+			[
+				"projec",
+				"build\\noc.sublime-project"
+			],
+			[
+				"radom",
+				"src\\1.1_random_walker\\random_walker.c"
+			],
+			[
+				"cmak",
+				"CmakeLists.txt"
+			],
+			[
+				"new",
+				"src\\chap2\\new.c"
+			],
+			[
+				"raylib",
+				"src\\addon_src\\raylib_extended.c"
+			],
+			[
+				"ray",
+				"include\\raylib_extended.h"
+			],
+			[
+				"cma",
+				"CmakeLists.txt"
+			],
+			[
+				"rayl",
+				"include\\raylib_extended.c"
+			],
+			[
+				"raymath",
+				"build\\raylib\\include\\raymath.h"
+			],
+			[
+				"camera",
+				"examples\\core\\core_2d_camera.c"
+			],
+			[
+				"a",
+				"src\\main.c"
+			],
+			[
+				"tes",
+				"test.txt"
+			],
+			[
+				"spl",
+				"split_data_export.py"
+			],
+			[
+				"ma",
+				"main.py"
+			],
+			[
+				"sta",
+				"Scripts\\starfield\\starfield.py"
+			],
+			[
+				"",
+				"Scripts\\except.py"
+			],
+			[
+				"nw",
+				"Scripts\\new.py"
+			],
+			[
+				"m",
+				"main.py"
+			],
+			[
+				"py",
+				"default.py"
+			],
+			[
+				"fa",
+				"fallingball.py"
+			],
+			[
+				"fall",
+				"fallingball.py"
+			],
+			[
+				"d",
+				"dmain.py"
+			],
+			[
+				"sublimp",
+				"manim.sublime-project"
+			],
+			[
+				"makefile",
+				"manim\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\backports\\makefile.py"
+			],
+			[
+				"pro",
+				"manim.sublime-project"
+			],
+			[
+				"ain",
+				"C\\main.c"
+			],
+			[
+				"stage",
+				"include\\stage.h"
+			],
+			[
+				"wa",
+				"Walker.pde"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 599.0,
+		"last_filter": "rust",
+		"selected_items":
+		[
+			[
+				"rust",
+				"E:\\Dev\\Rust\\hello\\.config\\rust_hello.sublime-project"
+			],
+			[
+				"proce",
+				"E:\\Dev\\C\\proceduralRaylib\\build\\proceduralGeneration.sublime-project"
+			],
+			[
+				"mathlib",
+				"E:\\Dev\\C\\mathlib\\mathlib.sublime-project"
+			],
+			[
+				"dsa",
+				"E:\\Dev\\C++\\college\\dsa\\build\\dsa.sublime-workspace"
+			],
+			[
+				"noc",
+				"E:\\Dev\\C\\natureofcode\\build\\noc.sublime-workspace"
+			],
+			[
+				"plot",
+				"E:\\Dev\\C\\plotting\\build\\plot.sublime-project"
+			],
+			[
+				"dots",
+				"E:\\Dev\\C\\dotsConnect\\dots.sublime-workspace"
+			],
+			[
+				"manim",
+				"C:\\Dev\\PythonProjects\\manim_ce\\manim.sublime-project"
+			],
+			[
+				"",
+				"C:\\Dev\\PythonProjects\\test_scripts\\test_scripts_python.sublime-project"
+			],
+			[
+				"fami",
+				"C:\\Dev\\HTML\\CT\\familywebpage.sublime-project"
+			]
+		],
+		"width": 454.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"copilot.conversation.code_block_index":
+		{
+		},
+		"copilot.conversation.conversation_entries":
+		[
+		],
+		"copilot.conversation.conversation_id": "",
+		"copilot.conversation.follow_up": "",
+		"copilot.conversation.is_visible": false,
+		"copilot.conversation.is_waiting_conversation": false,
+		"copilot.conversation.last_active_view_id": 177,
+		"copilot.conversation.original_layout": null,
+		"copilot.conversation.reference_block_state":
+		{
+		},
+		"copilot.conversation.suggested_title": "",
+		"copilot.copilotignore.patterns":
+		{
+		},
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

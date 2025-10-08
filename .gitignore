@@ -1,0 +1,19 @@
+# Godot-specific ignores
+.godot/
+.import/
+export_presets.cfg
+
+# Common operating system and editor ignores
+.DS_Store
+Thumbs.db
+*.bak
+*~
+# ... (add other relevant OS/editor specific ignores)
+
+# Build/Export related ignores
+build/
+bin/
+*.exe
+*.zip
+*.pck
+*.apk

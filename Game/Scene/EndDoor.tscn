@@ -1,0 +1,74 @@
+[gd_scene load_steps=11 format=3 uid="uid://gyii434kmwh3"]
+
+[ext_resource type="Texture2D" uid="uid://c07k8oath1jxj" path="res://Asset/Animations/Other/Door.png" id="1_j3573"]
+[ext_resource type="Script" uid="uid://y2e3jd8sbohw" path="res://Game/Script/end_door.gd" id="1_xhyqj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hufb1"]
+atlas = ExtResource("1_j3573")
+region = Rect2(0, 0, 196, 146)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jyu2d"]
+atlas = ExtResource("1_j3573")
+region = Rect2(196, 0, 196, 146)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6r113"]
+atlas = ExtResource("1_j3573")
+region = Rect2(392, 0, 196, 146)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1o6f"]
+atlas = ExtResource("1_j3573")
+region = Rect2(588, 0, 196, 146)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ma0tw"]
+atlas = ExtResource("1_j3573")
+region = Rect2(784, 0, 196, 146)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_naoj2"]
+atlas = ExtResource("1_j3573")
+region = Rect2(980, 0, 196, 146)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_crvwp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hufb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jyu2d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6r113")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1o6f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ma0tw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_naoj2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2dqbu"]
+size = Vector2(20, 125)
+
+[node name="EndDoor" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_xhyqj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = -10
+position = Vector2(0, -73)
+sprite_frames = SubResource("SpriteFrames_crvwp")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -62.5)
+shape = SubResource("RectangleShape2D_2dqbu")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
