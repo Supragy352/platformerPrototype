@@ -40,7 +40,7 @@ var currentCoin = 0:
 	set(new_value):
 		currentCoin = new_value
 		emit_signal("playerCoinUpdated", currentCoin)
-		
+
 signal playerHealthUpdated(newValue, maxValue)
 signal playerCoinUpdated(newValue)
 
@@ -50,7 +50,7 @@ func _ready():
 	GameManager.playerOriginalPos = position
 	GameManager.playerCamera = playerCamera
 	GameManager.playerCameraOriginalOffset = playerCamera.offset
-	
+
 func _process(delta):
 	UpdateAnimation()
 
@@ -61,12 +61,12 @@ func _physics_process(delta):
 	elif AirborneLastFrame:
 		OnPlayerLandVFX()
 		AirborneLastFrame = false
-	
+
 	if currentState == PlayerState.Hurt || currentState == PlayerState.Dead || currentState == PlayerState.Uncontrollable:
 		velocity.x = 0
 		move_and_slide()
 		return
-		
+
 	if Input.is_action_just_pressed("Jump") and is_on_floor():
 		velocity.y += JUMP_VELOCITY
 		OnPlayerJumpVFX()
@@ -93,7 +93,7 @@ func UpdateAnimation():
 			return
 		else:
 			currentState = PlayerState.Normal
-		
+
 	if velocity.x != 0:
 		animated_sprite_2d.flip_h = velocity.x < 0
 		if velocity.x < 0:
@@ -102,10 +102,10 @@ func UpdateAnimation():
 			shooting_point.position.x = 26
 	if is_on_floor():
 		if abs(velocity.x) >= 0.1:
-			
+
 			var playinganimationFrame = animated_sprite_2d.frame
 			var playingAnimationName = animated_sprite_2d.animation
-			
+
 			if isShooting:
 				animated_sprite_2d.play("Shoot_Run")
 				if playingAnimationName == "Run":
@@ -122,28 +122,28 @@ func UpdateAnimation():
 				animated_sprite_2d.play("Idle")
 	else:
 		animated_sprite_2d.play("Jump")
-		
+
 		if isShooting:
 			animated_sprite_2d.play("Shoot_Jump")
 
 func OnPlayerJumpVFX():
 	var vfxToSpawn = preload("res://Game/Scene/vfx_jump_up.tscn")
 	GameManager.SpawnVFX(vfxToSpawn, global_position)
-	
+
 func OnPlayerLandVFX():
 	var vfxToSpawn = preload("res://Game/Scene/vfx_land.tscn")
 	GameManager.SpawnVFX(vfxToSpawn, global_position)
-	
+
 
 func Shoot():
 	var bulletToSpawn = preload("res://Game/Scene/bullet.tscn")
 	var bulletInstance = GameManager.SpawnVFX(bulletToSpawn, shooting_point.global_position)
-	
+
 	if animated_sprite_2d.flip_h:
 		bulletInstance.direction = -1
 	else:
 		bulletInstance.direction = 1
-		
+
 
 func TryToShoot():
 	if isShooting:
@@ -152,35 +152,35 @@ func TryToShoot():
 	Shoot()
 	PlayFireVFX()
 	await get_tree().create_timer(SHOOT_DURATION).timeout
-	isShooting = false	
+	isShooting = false
 
-	
+
 func PlayFireVFX():
 	var vfxToSpawm = preload("res://Game/Scene/vfx_player_fire.tscn")
 	var vfxInstance = GameManager.SpawnVFX(vfxToSpawm, shooting_point.global_position)
-	
+
 	if animated_sprite_2d.flip_h:
 		vfxInstance.scale.x = -1
-	
+
 func ApplyDmage(damage:int):
 	if currentState == PlayerState.Hurt || currentState == PlayerState.Dead:
 		return
-		
+
 	currentHealth -= damage
 	currentState = PlayerState.Hurt
-	
+
 	if currentHealth <= 0:
 		currentHealth = 0
 		currentState = PlayerState.Dead
-	
+
 
 func CollectedCoin(value:int):
 	currentCoin += value
-	
+
 	if currentHealth < MAX_HEALTH:
 		currentHealth += 3 * value
 		if currentHealth > MAX_HEALTH:
 			currentHealth = MAX_HEALTH
-			
+
 func SwitchStateToUncontrollable():
 	currentState = PlayerState.Uncontrollable
