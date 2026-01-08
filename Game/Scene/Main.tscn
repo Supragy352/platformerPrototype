@@ -1,4 +1,4 @@
-[gd_scene load_steps=49 format=4 uid="uid://cgjcaelcalpje"]
+[gd_scene load_steps=48 format=4 uid="uid://cgjcaelcalpje"]
 
 [ext_resource type="Texture2D" uid="uid://cehsf33bpirjx" path="res://Asset/Tilemap/Tilemap_ProjectLittleAdventurerAndie2D.png" id="1_yb8qi"]
 [ext_resource type="PackedScene" uid="uid://b4slx5h7sqjmh" path="res://Game/Scene/Player.tscn" id="2_aur5y"]
@@ -616,9 +616,6 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="VideoStreamTheora" id="VideoStreamTheora_xef6q"]
-file = "res://Asset/Videos/output.ogg"
-
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_50myk"]
 bg_color = Color(0, 0, 0, 0.588235)
 border_width_left = 3
@@ -854,14 +851,6 @@ motion_mirroring = Vector2(920, 0)
 [node name="SunshineProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer2"]
 texture = ExtResource("20_dkx6m")
 centered = false
-
-[node name="CutscenePlayer" type="CanvasLayer" parent="."]
-visible = false
-
-[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="CutscenePlayer"]
-offset_right = 40.0
-offset_bottom = 40.0
-stream = SubResource("VideoStreamTheora_xef6q")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = 110
@@ -1153,95 +1142,95 @@ position = Vector2(3224, 80)
 
 [node name="Enemy" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(448, -8)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy3" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(616, -120)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy4" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(960, -8)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy6" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(1328, -200)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy11" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(1784, 224)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy12" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(2024, 224)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy13" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(2512, 224)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy14" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(2744, -32)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy15" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(2848, 0)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy23" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(2872, 128)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy16" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(3152, 80)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy17" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(2464, -352)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy18" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(2256, -304)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy7" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(1792, -200)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy8" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(1688, -8)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy9" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(1304, 80)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy10" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(1280, 160)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy22" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(1288, 368)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy5" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(768, 56)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy20" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(496, 256)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy21" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(752, 256)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy2" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(304, -40)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy19" parent="Enemies" instance=ExtResource("21_40h62")]
 position = Vector2(40, -40)
-currentHealth = 100
+currentHealth = 1
 
 [node name="Enemy" parent="." instance=ExtResource("21_81j0c")]
 position = Vector2(2440, -8)

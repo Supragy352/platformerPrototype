@@ -522,7 +522,7 @@ shape = SubResource("CapsuleShape2D_d70b4")
 z_index = 100
 position = Vector2(0, -32)
 sprite_frames = SubResource("SpriteFrames_y8krj")
-animation = &"Idle"
+animation = &"Die"
 autoplay = "Idle"
 
 [node name="Camera2D" type="Camera2D" parent="."]
