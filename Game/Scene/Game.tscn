@@ -1,33 +1,33 @@
 [gd_scene load_steps=48 format=4 uid="uid://cgjcaelcalpje"]
 
-[ext_resource type="Texture2D" uid="uid://cehsf33bpirjx" path="res://Asset/Tilemap/Tilemap_ProjectLittleAdventurerAndie2D.png" id="1_yb8qi"]
-[ext_resource type="PackedScene" uid="uid://b4slx5h7sqjmh" path="res://Game/Scene/Player.tscn" id="2_aur5y"]
-[ext_resource type="Script" uid="uid://cn1qwctrpua0e" path="res://Game/Script/PlayerResetArea.gd" id="7_bi6tx"]
-[ext_resource type="Texture2D" uid="uid://buiw8y0lq3e3t" path="res://Asset/Background/05_ProjectLittleAdventurerAndie2D.png" id="8_q4wdm"]
-[ext_resource type="Texture2D" uid="uid://kjjdifh6sh4l" path="res://Asset/Background/04_ProjectLittleAdventurerAndie2D.png" id="9_tsxtb"]
-[ext_resource type="Texture2D" uid="uid://lcjt7pmn3gst" path="res://Asset/Background/03_ProjectLittleAdventurerAndie2D.png" id="10_dsrkr"]
-[ext_resource type="Texture2D" uid="uid://dncs81asbp0br" path="res://Asset/Background/02_ProjectLittleAdventurerAndie2D.png" id="11_vjlx0"]
-[ext_resource type="Texture2D" uid="uid://cr0vx0xlvosxf" path="res://Asset/Background/01_ProjectLittleAdventurerAndie2D.png" id="12_y1n83"]
-[ext_resource type="Texture2D" uid="uid://ctpng55y3iyh" path="res://Asset/Background/00_ProjectLittleAdventurerAndie2D.png" id="13_by7ox"]
-[ext_resource type="Texture2D" uid="uid://cfdca6m8e24hl" path="res://Asset/Background/CloseBackground/CBG01_ProjectLittleAdventurerAndie2D.png" id="14_cj1rq"]
-[ext_resource type="Texture2D" uid="uid://cc7nwq6fk4y3" path="res://Asset/Background/CloseBackground/CBG03_ProjectLittleAdventurerAndie2D.png" id="15_qh8yl"]
-[ext_resource type="Texture2D" uid="uid://b6c5mmiyaleot" path="res://Asset/Background/CloseBackground/CBG04_ProjectLittleAdventurerAndie2D.png" id="16_11tvy"]
-[ext_resource type="Texture2D" uid="uid://k2j1wwu51qpc" path="res://Asset/Background/CloseBackground/CBG05_ProjectLittleAdventurerAndie2D.png" id="17_swsak"]
-[ext_resource type="Texture2D" uid="uid://cs54uq1dmk2le" path="res://Asset/Background/CloseBackground/CBG02_ProjectLittleAdventurerAndie2D.png" id="18_pj20w"]
-[ext_resource type="Texture2D" uid="uid://30kk4qhwcojt" path="res://Asset/Background/Particles_ProjectLittleAdventurerAndie2D.png" id="19_x3041"]
-[ext_resource type="Texture2D" uid="uid://cqej1bdlca0yl" path="res://Asset/Background/Sunshine_ProjectLittleAdventurerAndie2D.png" id="20_dkx6m"]
-[ext_resource type="PackedScene" uid="uid://ei0t5tn6f2ju" path="res://Game/Scene/enemy.tscn" id="21_40h62"]
-[ext_resource type="PackedScene" uid="uid://c04sci4kqko5v" path="res://Game/Scene/Big_Enemy.tscn" id="21_81j0c"]
-[ext_resource type="PackedScene" uid="uid://dxunarc3s6xbi" path="res://Game/Scene/coin.tscn" id="28_k0jxe"]
-[ext_resource type="Script" uid="uid://dexvfvkacvuc0" path="res://Game/Script/UI_Manager.gd" id="28_nlv43"]
-[ext_resource type="PackedScene" uid="uid://gyii434kmwh3" path="res://Game/Scene/EndDoor.tscn" id="29_njnsl"]
+[ext_resource type="PackedScene" uid="uid://b4slx5h7sqjmh" path="res://Game/Scene/Player.tscn" id="1_5d7k0"]
+[ext_resource type="Texture2D" uid="uid://cehsf33bpirjx" path="res://Asset/Tilemap/Tilemap_ProjectLittleAdventurerAndie2D.png" id="2_oh0s4"]
+[ext_resource type="Script" uid="uid://cn1qwctrpua0e" path="res://Game/Script/PlayerResetArea.gd" id="3_3utbw"]
+[ext_resource type="Texture2D" uid="uid://buiw8y0lq3e3t" path="res://Asset/Background/05_ProjectLittleAdventurerAndie2D.png" id="4_wahhk"]
+[ext_resource type="Texture2D" uid="uid://kjjdifh6sh4l" path="res://Asset/Background/04_ProjectLittleAdventurerAndie2D.png" id="5_8bvvq"]
+[ext_resource type="Texture2D" uid="uid://lcjt7pmn3gst" path="res://Asset/Background/03_ProjectLittleAdventurerAndie2D.png" id="6_1luhv"]
+[ext_resource type="Texture2D" uid="uid://dncs81asbp0br" path="res://Asset/Background/02_ProjectLittleAdventurerAndie2D.png" id="7_lbna3"]
+[ext_resource type="Texture2D" uid="uid://cr0vx0xlvosxf" path="res://Asset/Background/01_ProjectLittleAdventurerAndie2D.png" id="8_sy8y8"]
+[ext_resource type="Texture2D" uid="uid://ctpng55y3iyh" path="res://Asset/Background/00_ProjectLittleAdventurerAndie2D.png" id="9_jc8ps"]
+[ext_resource type="Texture2D" uid="uid://cfdca6m8e24hl" path="res://Asset/Background/CloseBackground/CBG01_ProjectLittleAdventurerAndie2D.png" id="10_msq1d"]
+[ext_resource type="Texture2D" uid="uid://cc7nwq6fk4y3" path="res://Asset/Background/CloseBackground/CBG03_ProjectLittleAdventurerAndie2D.png" id="11_du4au"]
+[ext_resource type="Texture2D" uid="uid://b6c5mmiyaleot" path="res://Asset/Background/CloseBackground/CBG04_ProjectLittleAdventurerAndie2D.png" id="12_runil"]
+[ext_resource type="Texture2D" uid="uid://k2j1wwu51qpc" path="res://Asset/Background/CloseBackground/CBG05_ProjectLittleAdventurerAndie2D.png" id="13_fapj4"]
+[ext_resource type="Texture2D" uid="uid://cs54uq1dmk2le" path="res://Asset/Background/CloseBackground/CBG02_ProjectLittleAdventurerAndie2D.png" id="14_si4nl"]
+[ext_resource type="Texture2D" uid="uid://30kk4qhwcojt" path="res://Asset/Background/Particles_ProjectLittleAdventurerAndie2D.png" id="15_4crp8"]
+[ext_resource type="Texture2D" uid="uid://cqej1bdlca0yl" path="res://Asset/Background/Sunshine_ProjectLittleAdventurerAndie2D.png" id="16_u2f4u"]
+[ext_resource type="Script" uid="uid://dexvfvkacvuc0" path="res://Game/Script/UI_Manager.gd" id="17_5x88d"]
+[ext_resource type="PackedScene" uid="uid://dxunarc3s6xbi" path="res://Game/Scene/coin.tscn" id="18_ukltf"]
+[ext_resource type="PackedScene" uid="uid://gyii434kmwh3" path="res://Game/Scene/EndDoor.tscn" id="19_v2m7x"]
+[ext_resource type="PackedScene" uid="uid://ei0t5tn6f2ju" path="res://Game/Scene/enemy.tscn" id="20_a0uyf"]
+[ext_resource type="PackedScene" uid="uid://c04sci4kqko5v" path="res://Game/Scene/Big_Enemy.tscn" id="21_47rh3"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_wod0f"]
 friction = 0.0
 rough = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_80q54"]
-texture = ExtResource("1_yb8qi")
+texture = ExtResource("2_oh0s4")
 1:1/0 = 0
 1:1/0/terrain_set = 0
 1:1/0/terrain = 0
@@ -509,19 +509,19 @@ sources/1 = SubResource("TileSetAtlasSource_80q54")
 size = Vector2(4434.5, 281.25)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r53r3"]
-atlas = ExtResource("12_y1n83")
+atlas = ExtResource("8_sy8y8")
 region = Rect2(0, 0, 960, 400)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_idcdf"]
-atlas = ExtResource("12_y1n83")
+atlas = ExtResource("8_sy8y8")
 region = Rect2(960, 0, 960, 400)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_th6rb"]
-atlas = ExtResource("12_y1n83")
+atlas = ExtResource("8_sy8y8")
 region = Rect2(1920, 0, 960, 400)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_70eit"]
-atlas = ExtResource("12_y1n83")
+atlas = ExtResource("8_sy8y8")
 region = Rect2(2880, 0, 960, 400)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_1s67b"]
@@ -545,19 +545,19 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h2tch"]
-atlas = ExtResource("13_by7ox")
+atlas = ExtResource("9_jc8ps")
 region = Rect2(0, 0, 945, 745)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o8hlf"]
-atlas = ExtResource("13_by7ox")
+atlas = ExtResource("9_jc8ps")
 region = Rect2(945, 0, 945, 745)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2l6i4"]
-atlas = ExtResource("13_by7ox")
+atlas = ExtResource("9_jc8ps")
 region = Rect2(1890, 0, 945, 745)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_abv1c"]
-atlas = ExtResource("13_by7ox")
+atlas = ExtResource("9_jc8ps")
 region = Rect2(2835, 0, 945, 745)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_4j5ul"]
@@ -581,19 +581,19 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j2avf"]
-atlas = ExtResource("19_x3041")
+atlas = ExtResource("15_4crp8")
 region = Rect2(0, 0, 1200, 590)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6y2nh"]
-atlas = ExtResource("19_x3041")
+atlas = ExtResource("15_4crp8")
 region = Rect2(1200, 0, 1200, 590)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rs0tk"]
-atlas = ExtResource("19_x3041")
+atlas = ExtResource("15_4crp8")
 region = Rect2(2400, 0, 1200, 590)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fgcdk"]
-atlas = ExtResource("19_x3041")
+atlas = ExtResource("15_4crp8")
 region = Rect2(3600, 0, 1200, 590)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_y81mo"]
@@ -666,7 +666,7 @@ corner_radius_bottom_left = 20
 
 [node name="Root" type="Node2D"]
 
-[node name="Player" parent="." instance=ExtResource("2_aur5y")]
+[node name="Player" parent="." instance=ExtResource("1_5d7k0")]
 position = Vector2(-64, -8)
 
 [node name="TileMap" type="Node" parent="."]
@@ -679,7 +679,7 @@ tile_set = SubResource("TileSet_3ybxg")
 [node name="Area2D_PlayerResetArea" type="Area2D" parent="."]
 collision_layer = 0
 collision_mask = 2
-script = ExtResource("7_bi6tx")
+script = ExtResource("3_3utbw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D_PlayerResetArea"]
 position = Vector2(1566.75, 536)
@@ -691,7 +691,7 @@ shape = SubResource("RectangleShape2D_r86yo")
 motion_scale = Vector2(0, 0)
 
 [node name="05ProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-texture = ExtResource("8_q4wdm")
+texture = ExtResource("4_wahhk")
 centered = false
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -699,7 +699,7 @@ motion_scale = Vector2(0.08, 0)
 motion_mirroring = Vector2(960, 0)
 
 [node name="04ProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
-texture = ExtResource("9_tsxtb")
+texture = ExtResource("5_8bvvq")
 centered = false
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -707,7 +707,7 @@ motion_scale = Vector2(0.15, 0)
 motion_mirroring = Vector2(960, 0)
 
 [node name="03ProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
-texture = ExtResource("10_dsrkr")
+texture = ExtResource("6_1luhv")
 centered = false
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -715,7 +715,7 @@ motion_scale = Vector2(0.3, 0)
 motion_mirroring = Vector2(960, 0)
 
 [node name="02ProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
-texture = ExtResource("11_vjlx0")
+texture = ExtResource("7_lbna3")
 centered = false
 
 [node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -741,97 +741,97 @@ visible = false
 
 [node name="Cbg01ProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(-48, -128)
-texture = ExtResource("14_cj1rq")
+texture = ExtResource("10_msq1d")
 
 [node name="Cbg01ProjectLittleAdventurerAndie2d3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2520, 112)
-texture = ExtResource("14_cj1rq")
+texture = ExtResource("10_msq1d")
 
 [node name="Cbg01ProjectLittleAdventurerAndie2d4" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2248, 112)
-texture = ExtResource("14_cj1rq")
+texture = ExtResource("10_msq1d")
 
 [node name="Cbg01ProjectLittleAdventurerAndie2d2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(1552, -296)
-texture = ExtResource("14_cj1rq")
+texture = ExtResource("10_msq1d")
 
 [node name="Cbg03ProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(216, -160)
-texture = ExtResource("15_qh8yl")
+texture = ExtResource("11_du4au")
 
 [node name="Cbg03ProjectLittleAdventurerAndie2d2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(696, 152)
-texture = ExtResource("15_qh8yl")
+texture = ExtResource("11_du4au")
 
 [node name="Cbg03ProjectLittleAdventurerAndie2d3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(1464, 240)
-texture = ExtResource("15_qh8yl")
+texture = ExtResource("11_du4au")
 
 [node name="Cbg03ProjectLittleAdventurerAndie2d4" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2736, -480)
-texture = ExtResource("15_qh8yl")
+texture = ExtResource("11_du4au")
 
 [node name="Small" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(1120, -208)
-texture = ExtResource("16_11tvy")
+texture = ExtResource("12_runil")
 
 [node name="BrokenPillar" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(1720, 144)
-texture = ExtResource("16_11tvy")
+texture = ExtResource("12_runil")
 
 [node name="BrokenPillar2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2560, -432)
-texture = ExtResource("16_11tvy")
+texture = ExtResource("12_runil")
 
 [node name="BrokenPillar3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2768, 152)
-texture = ExtResource("16_11tvy")
+texture = ExtResource("12_runil")
 
 [node name="BrokenPillar4" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2360, 144)
-texture = ExtResource("16_11tvy")
+texture = ExtResource("12_runil")
 
 [node name="Bush" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(576, -136)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 
 [node name="Bush4" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2016, -232)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 
 [node name="Bush5" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2408, -312)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 
 [node name="Bush6" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2344, -312)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 
 [node name="BushFlipped" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2272, -312)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 flip_h = true
 
 [node name="BushFlipped2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2088, -240)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 flip_h = true
 
 [node name="TreeMedium" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(1984, 104)
-texture = ExtResource("18_pj20w")
+texture = ExtResource("14_si4nl")
 
 [node name="TreeMedium2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(2344, -128)
-texture = ExtResource("18_pj20w")
+texture = ExtResource("14_si4nl")
 
 [node name="Bush3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(904, -24)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 
 [node name="Bush2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
 position = Vector2(728, 40)
-texture = ExtResource("17_swsak")
+texture = ExtResource("13_fapj4")
 
 [node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
 layer = 100
@@ -849,12 +849,12 @@ motion_scale = Vector2(0.2, 0)
 motion_mirroring = Vector2(920, 0)
 
 [node name="SunshineProjectLittleAdventurerAndie2d" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer2"]
-texture = ExtResource("20_dkx6m")
+texture = ExtResource("16_u2f4u")
 centered = false
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = 110
-script = ExtResource("28_nlv43")
+script = ExtResource("17_5x88d")
 
 [node name="GameScreen" type="Control" parent="CanvasLayer"]
 layout_mode = 3
@@ -937,302 +937,302 @@ text = "RESTART"
 
 [node name="Coins" type="Node2D" parent="."]
 
-[node name="Coin" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(144, -48)
 value = 1
 
-[node name="Coin6" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin6" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(176, -48)
 value = 1
 
-[node name="Coin7" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin7" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(208, -48)
 value = 1
 
-[node name="Coin2" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin2" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(424, -72)
 value = 1
 
-[node name="Coin3" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin3" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(592, 16)
 value = 1
 
-[node name="Coin18" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin18" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(616, 64)
 value = 1
 
-[node name="Coin19" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin19" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(528, 8)
 value = 1
 
-[node name="Coin4" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin4" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(984, -80)
 value = 1
 
-[node name="Coin11" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin11" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1064, -80)
 value = 1
 
-[node name="Coin12" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin12" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1096, -144)
 value = 1
 
-[node name="Coin13" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin13" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1160, -144)
 value = 1
 
-[node name="Coin14" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin14" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1264, -176)
 value = 1
 
-[node name="Coin15" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin15" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1544, -208)
 value = 1
 
-[node name="Coin16" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin16" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1576, -208)
 value = 1
 
-[node name="Coin17" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin17" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1512, -208)
 value = 1
 
-[node name="Coin20" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin20" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1984, 208)
 value = 1
 
-[node name="Coin21" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin21" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1824, 208)
 value = 1
 
-[node name="Coin32" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin32" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1912, 160)
 value = 1
 
-[node name="Coin22" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin22" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1672, 208)
 value = 1
 
-[node name="Coin23" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin23" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2320, 208)
 value = 1
 
-[node name="Coin33" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin33" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2008, -232)
 value = 1
 
-[node name="Coin34" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin34" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2088, -248)
 value = 1
 
-[node name="Coin35" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin35" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1984, -24)
 value = 1
 
-[node name="Coin49" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin49" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2488, -32)
 
-[node name="Coin50" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin50" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2384, -32)
 
-[node name="Coin36" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin36" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2264, -312)
 value = 1
 
-[node name="Coin41" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin41" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2416, -312)
 value = 1
 
-[node name="Coin42" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin42" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2536, -376)
 value = 1
 
-[node name="Coin43" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin43" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2672, -376)
 value = 1
 
-[node name="Coin44" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin44" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2816, -376)
 value = 1
 
-[node name="Coin45" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin45" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2880, -40)
 value = 1
 
-[node name="Coin47" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin47" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(3424, 56)
 value = 50
 
-[node name="Coin48" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin48" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(3336, 48)
 value = 1
 
-[node name="Coin46" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin46" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(3104, 8)
 value = 1
 
-[node name="Coin39" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin39" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2584, -88)
 value = 1
 
-[node name="Coin40" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin40" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2584, -88)
 value = 1
 
-[node name="Coin37" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin37" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1904, -8)
 value = 1
 
-[node name="Coin38" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin38" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1832, -8)
 value = 1
 
-[node name="Coin24" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin24" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2192, 184)
 value = 1
 
-[node name="Coin25" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin25" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(992, 240)
 value = 1
 
-[node name="Coin26" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin26" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1136, 240)
 value = 1
 
-[node name="Coin27" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin27" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1392, 352)
 value = 1
 
-[node name="Coin29" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin29" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1376, 144)
 value = 1
 
-[node name="Coin30" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin30" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1248, 56)
 value = 1
 
-[node name="Coin31" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin31" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(1520, 184)
 value = 1
 
-[node name="Coin28" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin28" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(2088, 208)
 value = 1
 
-[node name="Coin5" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin5" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(504, -128)
 value = 1
 
-[node name="Coin8" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin8" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(544, -128)
 value = 1
 
-[node name="Coin9" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin9" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(584, -128)
 value = 1
 
-[node name="Coin10" parent="Coins" instance=ExtResource("28_k0jxe")]
+[node name="Coin10" parent="Coins" instance=ExtResource("18_ukltf")]
 position = Vector2(760, -80)
 value = 1
 
-[node name="EndDoor" parent="." instance=ExtResource("29_njnsl")]
+[node name="EndDoor" parent="." instance=ExtResource("19_v2m7x")]
 position = Vector2(3224, 80)
 
 [node name="Enemies" type="Node2D" parent="."]
 
-[node name="Enemy" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(448, -8)
 currentHealth = 1
 
-[node name="Enemy3" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy3" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(616, -120)
 currentHealth = 1
 
-[node name="Enemy4" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy4" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(960, -8)
 currentHealth = 1
 
-[node name="Enemy6" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy6" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(1328, -200)
 currentHealth = 1
 
-[node name="Enemy11" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy11" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(1784, 224)
 currentHealth = 1
 
-[node name="Enemy12" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy12" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(2024, 224)
 currentHealth = 1
 
-[node name="Enemy13" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy13" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(2512, 224)
 currentHealth = 1
 
-[node name="Enemy14" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy14" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(2744, -32)
 currentHealth = 1
 
-[node name="Enemy15" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy15" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(2848, 0)
 currentHealth = 1
 
-[node name="Enemy23" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy23" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(2872, 128)
 currentHealth = 1
 
-[node name="Enemy16" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy16" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(3152, 80)
 currentHealth = 1
 
-[node name="Enemy17" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy17" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(2464, -352)
 currentHealth = 1
 
-[node name="Enemy18" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy18" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(2256, -304)
 currentHealth = 1
 
-[node name="Enemy7" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy7" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(1792, -200)
 currentHealth = 1
 
-[node name="Enemy8" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy8" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(1688, -8)
 currentHealth = 1
 
-[node name="Enemy9" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy9" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(1304, 80)
 currentHealth = 1
 
-[node name="Enemy10" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy10" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(1280, 160)
 currentHealth = 1
 
-[node name="Enemy22" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy22" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(1288, 368)
 currentHealth = 1
 
-[node name="Enemy5" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy5" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(768, 56)
 currentHealth = 1
 
-[node name="Enemy20" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy20" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(496, 256)
 currentHealth = 1
 
-[node name="Enemy21" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy21" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(752, 256)
 currentHealth = 1
 
-[node name="Enemy2" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy2" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(304, -40)
 currentHealth = 1
 
-[node name="Enemy19" parent="Enemies" instance=ExtResource("21_40h62")]
+[node name="Enemy19" parent="Enemies" instance=ExtResource("20_a0uyf")]
 position = Vector2(40, -40)
 currentHealth = 1
 
-[node name="Enemy" parent="." instance=ExtResource("21_81j0c")]
+[node name="Enemy" parent="." instance=ExtResource("21_47rh3")]
 position = Vector2(2440, -8)
 
 [connection signal="body_entered" from="Area2D_PlayerResetArea" to="Area2D_PlayerResetArea" method="_on_body_entered"]
