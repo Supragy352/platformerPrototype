@@ -9,7 +9,7 @@ extends CharacterBody2D
 class_name EnemyController
 
 # --- Node References ---
-#@onready var player: PlayerController = $"../../Player"                    # Reference to the player
+#@onready var player: PlayerController = $"../../Player"   S                 # Reference to the player
 @onready var animated_sprite_2d = $AnimatedSprite2D                         # Enemy's animated sprite
 @onready var ray_cast_forward = $CollisionShape2D/RayCast_Forward           # Raycast to detect walls ahead
 @onready var ray_cast_downward = $CollisionShape2D/RayCast_Downward         # Raycast to detect ledges/drops

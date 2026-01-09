@@ -10,6 +10,7 @@ extends CanvasLayer
 # --- Node References ---
 @onready var health_bar: ProgressBar = $GameScreen/HealthBar    # Player health bar UI
 @onready var coin_label: Label = $GameScreen/CoinLabel          # Coin count display label
+@onready var pause_button: Button = $GameScreen/Pause           # Game pause button
 @onready var game_over_screen: Panel = $GameOverScreen          # Game over overlay panel
 @onready var game_pause_screen: Panel = $PauseScreen            # Game pause overlay panel
 
@@ -36,7 +37,7 @@ func _ready():
 	game_pause_screen.visible = false
 
 func _process(_delta) -> void:
-	if Input.is_action_pressed("PauseGame") && game_pause_screen.visible == false:
+	if (Input.is_action_pressed("PauseGame") || pause_button.is_pressed()) && game_pause_screen.visible == false:
 		print("GamePaused")
 		ShowGamePauseScreen()
 
