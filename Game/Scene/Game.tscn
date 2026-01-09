@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=4 uid="uid://cgjcaelcalpje"]
+[gd_scene load_steps=52 format=4 uid="uid://cgjcaelcalpje"]
 
 [ext_resource type="PackedScene" uid="uid://b4slx5h7sqjmh" path="res://Game/Scene/Player.tscn" id="1_5d7k0"]
 [ext_resource type="Texture2D" uid="uid://cehsf33bpirjx" path="res://Asset/Tilemap/Tilemap_ProjectLittleAdventurerAndie2D.png" id="2_oh0s4"]
@@ -639,12 +639,36 @@ corner_radius_bottom_left = 20
 font_size = 80
 font_color = Color(1, 0.92549, 0, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5d7k0"]
+bg_color = Color(0.8784314, 0.44705883, 0.5137255, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oh0s4"]
+bg_color = Color(0.66281074, 0.25202566, 0.33041176, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5d7k0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3utbw"]
+bg_color = Color(0.22670749, 0.22670752, 0.2267074, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
 [sub_resource type="LabelSettings" id="LabelSettings_qr0jf"]
 font_size = 80
 font_color = Color(0.823529, 0.67451, 0.0862745, 1)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_edmh8"]
-bg_color = Color(0.25098, 0.866667, 0.764706, 1)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qfp6k"]
+bg_color = Color(0.823529, 0.67451, 0.0862745, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -657,8 +681,8 @@ corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qfp6k"]
-bg_color = Color(0.823529, 0.67451, 0.0862745, 1)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_edmh8"]
+bg_color = Color(0.25098, 0.866667, 0.764706, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
@@ -866,9 +890,9 @@ grow_vertical = 2
 
 [node name="HealthBar" type="ProgressBar" parent="CanvasLayer/GameScreen"]
 layout_mode = 0
-offset_left = 50.0
+offset_left = 150.0
 offset_top = 50.0
-offset_right = 450.0
+offset_right = 550.0
 offset_bottom = 90.0
 theme_override_styles/background = SubResource("StyleBoxFlat_50myk")
 theme_override_styles/fill = SubResource("StyleBoxFlat_qdhxe")
@@ -888,7 +912,39 @@ grow_horizontal = 0
 text = "0"
 label_settings = SubResource("LabelSettings_ovn4i")
 
+[node name="Pause" type="Button" parent="CanvasLayer/GameScreen"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 50.0
+offset_right = 90.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_5d7k0")
+theme_override_styles/hover = SubResource("StyleBoxFlat_oh0s4")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_5d7k0")
+text = "P"
+
+[node name="Label" type="Label" parent="CanvasLayer/GameScreen/Pause"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 13.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.75, 0.75)
+theme_override_styles/normal = SubResource("StyleBoxFlat_3utbw")
+text = "Z"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="GameOverScreen" type="Panel" parent="CanvasLayer"]
+visible = false
 self_modulate = Color(0, 0, 0, 0.784314)
 anchors_preset = 15
 anchor_right = 1.0
@@ -925,15 +981,65 @@ offset_right = 150.0
 offset_bottom = 156.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 40
-theme_override_styles/hover = SubResource("StyleBoxFlat_edmh8")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_qd0rh")
 theme_override_styles/normal = SubResource("StyleBoxFlat_qfp6k")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_qd0rh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_edmh8")
 text = "RESTART"
+
+[node name="PauseScreen" type="Panel" parent="CanvasLayer"]
+visible = false
+self_modulate = Color(0, 0, 0, 0.784314)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PauseLabel" type="Label" parent="CanvasLayer/PauseScreen"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -217.0
+offset_top = -55.0
+offset_right = 217.0
+offset_bottom = 55.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "PAUSED"
+label_settings = SubResource("LabelSettings_qr0jf")
+horizontal_alignment = 1
+
+[node name="Resume" type="Button" parent="CanvasLayer/PauseScreen"]
+process_mode = 3
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = 76.0
+offset_right = 150.0
+offset_bottom = 156.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_qfp6k")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_qd0rh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_edmh8")
+text = "RESUME"
 
 [node name="Coins" type="Node2D" parent="."]
 
@@ -1237,3 +1343,4 @@ position = Vector2(2440, -8)
 
 [connection signal="body_entered" from="Area2D_PlayerResetArea" to="Area2D_PlayerResetArea" method="_on_body_entered"]
 [connection signal="pressed" from="CanvasLayer/GameOverScreen/RestartButton" to="CanvasLayer" method="_on_restart_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseScreen/Resume" to="CanvasLayer" method="_on_resume_pressed"]

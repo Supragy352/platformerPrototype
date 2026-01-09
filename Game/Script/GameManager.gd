@@ -30,6 +30,8 @@ func _ready() -> void:
 	# Create a new noise generator for camera shake randomization
 	cameraShakeNoise = FastNoiseLite.new()
 
+
+
 # =============================================================================
 # PlayerEnteredResetArea() - Called when player enters a reset/death zone
 # Teleports the player back to their original spawn position
@@ -45,13 +47,13 @@ func PlayerEnteredResetArea():
 func SpawnVFX(vfxToSpawn : Resource, position : Vector2):
 	# Create an instance of the VFX scene
 	var vfxInstance = vfxToSpawn.instantiate()
-	
+
 	# Position it at the specified location
 	vfxInstance.global_position = position
-	
+
 	# Add it to the Root node of the scene
 	get_tree().get_root().get_node("Root").add_child(vfxInstance)
-	
+
 	# Return the instance so caller can modify it if needed
 	return vfxInstance
 
@@ -69,7 +71,7 @@ func PlayerIsDead():
 func PlayerEnteredEndDoor():
 	# Make player uncontrollable (victory state)
 	player.SwitchStateToUncontrollable()
-	
+
 	# Emit game over signal (used for both death and level complete)
 	emit_signal("GameOver")
 
@@ -90,7 +92,7 @@ func StartCameraShake():
 func UpdateCameraShake(intensity: float):
 	# Generate organic shake using noise (based on time for smooth variation)
 	var cameraOffset = cameraShakeNoise.get_noise_1d(Time.get_ticks_msec()) * intensity * 5
-	
+
 	# Apply offset to both X and Y axes, adding to original offset
 	playerCamera.offset.x = playerCameraOriginalOffset.x + cameraOffset
 	playerCamera.offset.y = playerCameraOriginalOffset.y + cameraOffset

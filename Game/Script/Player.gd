@@ -75,7 +75,7 @@ signal playerCoinUpdated(newValue)              # Emitted when coin count change
 func _ready():
 	# Set starting health to maximum
 	currentHealth = MAX_HEALTH
-	
+
 	# Register player with the GameManager singleton
 	GameManager.player = self
 	GameManager.playerOriginalPos = position           # Store spawn point for respawning
@@ -86,7 +86,7 @@ func _ready():
 # _process(delta) - Called every frame
 # Handles animation updates
 # =============================================================================
-func _process(delta):
+func _process(_delta):
 	UpdateAnimation()
 
 # =============================================================================
@@ -115,7 +115,7 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("Jump") and is_on_floor():
 		velocity.y += JUMP_VELOCITY  # Apply upward velocity
 		OnPlayerJumpVFX()            # Spawn jump VFX
-	
+
 	# --- Horizontal Movement ---
 	var direction = Input.get_axis("Left","Right")  # Get input direction (-1, 0, or 1)
 	if direction != 0:
@@ -159,7 +159,7 @@ func UpdateAnimation():
 			shooting_point.position.x = -26  # Left side
 		else:
 			shooting_point.position.x = 26   # Right side
-	
+
 	# --- Grounded Animations ---
 	if is_on_floor():
 		if abs(velocity.x) >= 0.1:
@@ -229,12 +229,12 @@ func TryToShoot():
 	# Don't shoot if already shooting (cooldown active)
 	if isShooting:
 		return
-	
+
 	# Set shooting state and fire
 	isShooting = true
 	Shoot()
 	PlayFireVFX()
-	
+
 	# Wait for cooldown duration before allowing another shot
 	await get_tree().create_timer(SHOOT_DURATION).timeout
 	isShooting = false

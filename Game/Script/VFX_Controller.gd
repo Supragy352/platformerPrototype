@@ -22,7 +22,7 @@ func _ready():
 # _process(delta) - Called every frame
 # Monitors animation state and cleans up when finished
 # =============================================================================
-func _process(delta):
+func _process(_delta):
 	# Remove the VFX node once the animation has finished playing
 	if animated_sprite_2d.is_playing() == false:
 		queue_free()

@@ -11,6 +11,7 @@ extends CanvasLayer
 @onready var health_bar: ProgressBar = $GameScreen/HealthBar    # Player health bar UI
 @onready var coin_label: Label = $GameScreen/CoinLabel          # Coin count display label
 @onready var game_over_screen: Panel = $GameOverScreen          # Game over overlay panel
+@onready var game_pause_screen: Panel = $PauseScreen            # Game pause overlay panel
 
 # =============================================================================
 # _ready() - Called when the node enters the scene tree
@@ -19,17 +20,26 @@ extends CanvasLayer
 func _ready():
 	# Get reference to the player
 	var player = get_tree().get_root().get_node("Root").get_node("Player") as PlayerController
-	
+
 	# Connect player signals to UI update functions
 	if player:
 		player.playerHealthUpdated.connect(UpdateHealthBar)  # Update health bar when health changes
 		player.playerCoinUpdated.connect(UpdateCoinLabel)    # Update coin display when coins change
-	
+
 	# Connect GameManager's GameOver signal to show game over screen
 	GameManager.GameOver.connect(ShowGameOverScreen)
-	
+
 	# Hide game over screen initially
 	game_over_screen.visible = false
+
+	# Hide game pause screen initially
+	game_pause_screen.visible = false
+
+func _process(_delta) -> void:
+	if Input.is_action_pressed("PauseGame") && game_pause_screen.visible == false:
+		print("GamePaused")
+		ShowGamePauseScreen()
+
 
 # =============================================================================
 # UpdateHealthBar(newValue, maxValue) - Updates the health bar display
@@ -55,9 +65,25 @@ func ShowGameOverScreen():
 	game_over_screen.visible = true
 
 # =============================================================================
+# ShowGamePauseScreen() - Displays the game pause overlay
+# Called when the user pauses the game
+# =============================================================================
+func ShowGamePauseScreen():
+	game_pause_screen.visible = true
+	get_tree().paused = true
+
+# =============================================================================
 # _on_restart_button_pressed() - Restart button callback
 # Reloads the current scene to restart the game
 # =============================================================================
 func _on_restart_button_pressed():
 	# Reload the entire scene to reset all game state
 	get_tree().reload_current_scene()
+
+# =============================================================================
+# _on_resume_button_pressed() - Resume button callback
+# Resumes the current scene to resume the game
+# =============================================================================
+func _on_resume_pressed():
+	game_pause_screen.visible = false
+	get_tree().paused = false

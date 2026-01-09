@@ -21,7 +21,7 @@ const DAMAGE = 30       # Amount of damage dealt to the player
 # Enables/disables the hitbox based on current animation frame
 # Only the "active" frames of the attack animation can deal damage
 # =============================================================================
-func _process(delta):
+func _process(_delta):
 	# Check if enemy is playing the Attack animation
 	if animated_sprite_2d.animation == "Attack":
 		# Enable hitbox only during the damage frames (frames 10-13)

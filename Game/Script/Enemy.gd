@@ -9,7 +9,7 @@ extends CharacterBody2D
 class_name EnemyController
 
 # --- Node References ---
-@onready var player: PlayerController = $"../../Player"                    # Reference to the player
+#@onready var player: PlayerController = $"../../Player"                    # Reference to the player
 @onready var animated_sprite_2d = $AnimatedSprite2D                         # Enemy's animated sprite
 @onready var ray_cast_forward = $CollisionShape2D/RayCast_Forward           # Raycast to detect walls ahead
 @onready var ray_cast_downward = $CollisionShape2D/RayCast_Downward         # Raycast to detect ledges/drops
@@ -28,14 +28,14 @@ var isAttacking = false          # Whether the enemy is currently attacking
 # _process(delta) - Called every frame
 # Updates the enemy's animation state
 # =============================================================================
-func _process(delta):
+func _process(_delta):
 	UpdateAnimation()
 
 # =============================================================================
 # _physics_process(delta) - Called every physics frame
 # Handles enemy movement, gravity, and patrol behavior
 # =============================================================================
-func _physics_process(delta):
+func _physics_process(_delta):
 	# Apply gravity when not on the floor
 	if is_on_floor() == false:
 		velocity.y = 300
@@ -131,7 +131,7 @@ func UpdateBlink(newValue:float):
 # _on_area_2d_player_detector_body_entered(body) - Player detection callback
 # Triggers attack when player enters the detection area
 # =============================================================================
-func _on_area_2d_player_detector_body_entered(body):
+func _on_area_2d_player_detector_body_entered(_body):
 	isAttacking = true
 
 # =============================================================================
