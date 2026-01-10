@@ -31,7 +31,7 @@ func _on_body_entered(body: Node2D):
 # _process(delta) - Called every frame
 # Monitors animation state and removes coin when collection animation finishes
 # =============================================================================
-func _process(delta: float):
+func _process(_delta: float):
 	# Once the collection animation has finished, remove the coin from scene
 	if animated_sprite_2d.is_playing() == false:
 		queue_free()

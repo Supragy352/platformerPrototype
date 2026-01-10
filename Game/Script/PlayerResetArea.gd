@@ -11,6 +11,6 @@ extends Area2D
 # _on_body_entered(body) - Signal callback when a body enters the area
 # Tells the GameManager to reset the player to their spawn point
 # =============================================================================
-func _on_body_entered(body):
+func _on_body_entered(_body):
 	# Notify GameManager to respawn the player at their original position
 	GameManager.PlayerEnteredResetArea()

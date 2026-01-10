@@ -9,14 +9,14 @@ extends CharacterBody2D
 class_name EnemyController
 
 # --- Node References ---
-@onready var player: PlayerController = $"../../Player"                    # Reference to the player
+#@onready var player: PlayerController = $"../../Player"   S                 # Reference to the player
 @onready var animated_sprite_2d = $AnimatedSprite2D                         # Enemy's animated sprite
 @onready var ray_cast_forward = $CollisionShape2D/RayCast_Forward           # Raycast to detect walls ahead
 @onready var ray_cast_downward = $CollisionShape2D/RayCast_Downward         # Raycast to detect ledges/drops
 @onready var area_2d_container = $Area2D_Container                          # Container for attack hitbox
 
 # --- Movement Variables ---
-var SPEED = 150          # Movement speed in pixels per second
+var SPEED = 100          # Movement speed in pixels per second
 var direction = -1       # Current movement direction: -1 = left, 1 = right
 
 # --- Health & State Variables ---
@@ -28,29 +28,29 @@ var isAttacking = false          # Whether the enemy is currently attacking
 # _process(delta) - Called every frame
 # Updates the enemy's animation state
 # =============================================================================
-func _process(delta):
+func _process(_delta):
 	UpdateAnimation()
 
 # =============================================================================
 # _physics_process(delta) - Called every physics frame
 # Handles enemy movement, gravity, and patrol behavior
 # =============================================================================
-func _physics_process(delta):
+func _physics_process(_delta):
 	# Apply gravity when not on the floor
 	if is_on_floor() == false:
 		velocity.y = 300
-	
+
 	# Don't process movement if dead
 	if isDead:
 		return
-	
+
 	# Handle attack state - wait for attack animation to finish
 	if isAttacking:
 		if animated_sprite_2d.is_playing() == false:
 			isAttacking = false
 		else:
 			return  # Don't move while attacking
-	
+
 	# Patrol AI: Turn around if hitting a wall or reaching a ledge
 	# ray_cast_forward detects walls, ray_cast_downward detects floor ahead
 	if ray_cast_forward.is_colliding() || ray_cast_downward.is_colliding() == false:
@@ -60,10 +60,10 @@ func _physics_process(delta):
 		ray_cast_downward.target_position.x *= -1
 		# Flip the attack hitbox container
 		area_2d_container.scale.x = -direction
-		
+
 	# Apply horizontal movement velocity
 	velocity.x = direction * SPEED
-	
+
 	# Execute the movement
 	move_and_slide()
 
@@ -75,11 +75,11 @@ func UpdateAnimation():
 	# Don't update animations if dead
 	if isDead:
 		return
-	
+
 	# Flip sprite based on movement direction
 	if velocity.x != 0:
 		animated_sprite_2d.flip_h = velocity.x > 0
-	
+
 	# Play appropriate animation
 	if isAttacking == false:
 		animated_sprite_2d.play("Walk")
@@ -94,28 +94,28 @@ func ApplyDamage(damage : int):
 	# Ignore damage if already dead
 	if isDead:
 		return
-	
+
 	# Reduce health by damage amount
 	currentHealth -= damage
-	
+
 	# Visual feedback: blink effect and camera shake
 	start_blink()
 	GameManager.StartCameraShake()
-	
+
 	# Check for death
 	if currentHealth <= 0:
 		isDead = true
-		
+
 		# Award coins to the player for killing enemy
 		var player = get_tree().get_root().get_node("Root").get_node("Player") as PlayerController
 		player.CollectedCoin(10)
-		
+
 		# Play death animation
 		animated_sprite_2d.play("Die")
-		
+
 		# Disable collision so player can walk through corpse
 		set_collision_layer_value(3, false)
-		
+
 		# Wait 2 seconds then remove from scene
 		await get_tree().create_timer(2).timeout
 		queue_free()
@@ -131,7 +131,7 @@ func UpdateBlink(newValue:float):
 # _on_area_2d_player_detector_body_entered(body) - Player detection callback
 # Triggers attack when player enters the detection area
 # =============================================================================
-func _on_area_2d_player_detector_body_entered(body):
+func _on_area_2d_player_detector_body_entered(_body):
 	isAttacking = true
 
 # =============================================================================
