@@ -57,6 +57,16 @@ var currentHealth:
 
 const MAX_HEALTH = 100  # Maximum player health
 
+# --- Stamina System ---
+# Current stamina with setter that emits signal for UI updates
+var currentStamina:
+	set(new_value):
+		currentStamina = new_value
+		emit_signal("playerStaminaUpdated", currentStamina, MAX_STAMINA)
+
+const MAX_STAMINA = 100        # Maximum player stamina
+const STAMINA_REGEN_RATE = 10  # Stamina regeneration rate per second
+
 # --- Coin System ---
 # Current coins with setter that emits signal for UI updates
 var currentCoin = 0:
@@ -65,16 +75,18 @@ var currentCoin = 0:
 		emit_signal("playerCoinUpdated", currentCoin)
 
 # --- Signals for UI Communication ---
-signal playerHealthUpdated(newValue, maxValue)  # Emitted when health changes
-signal playerCoinUpdated(newValue)              # Emitted when coin count changes
+signal playerHealthUpdated(newValue, maxValue)   # Emitted when health changes
+signal playerStaminaUpdated(newValue, maxValue)  # Emitted when stamina changes
+signal playerCoinUpdated(newValue)               # Emitted when coin count changes
 
 # =============================================================================
 # _ready() - Called when the node enters the scene tree
 # Initializes player state and registers with GameManager
 # =============================================================================
 func _ready():
-	# Set starting health to maximum
+	# Set starting health & stamina to maximum
 	currentHealth = MAX_HEALTH
+	currentStamina = MAX_STAMINA
 
 	# Register player with the GameManager singleton
 	GameManager.player = self
@@ -113,8 +125,10 @@ func _physics_process(delta):
 
 	# --- Jump Input ---
 	if Input.is_action_just_pressed("Jump") and is_on_floor():
-		velocity.y += JUMP_VELOCITY  # Apply upward velocity
-		OnPlayerJumpVFX()            # Spawn jump VFX
+		if currentStamina >= STAMINA_REGEN_RATE * 0.5:   # Check if stamina is sufficient
+			currentStamina -= STAMINA_REGEN_RATE * 0.5   # Decrease stamina for jump
+			velocity.y += JUMP_VELOCITY  			     # Apply upward velocity
+			OnPlayerJumpVFX()            			     # Spawn jump VFX
 
 	# --- Horizontal Movement ---
 	var direction = Input.get_axis("Left","Right")  # Get input direction (-1, 0, or 1)
@@ -122,6 +136,9 @@ func _physics_process(delta):
 		velocity.x = direction * SPEED  # Move in input direction
 	else:
 		velocity.x = 0  # Stop horizontal movement when no input
+
+		if currentStamina < 100:                         # check if stamina is below maximum
+			currentStamina += STAMINA_REGEN_RATE * delta # increment stamina when idle
 
 	# --- Shooting Input ---
 	if Input.is_action_just_pressed("Shoot"):
@@ -215,6 +232,9 @@ func Shoot():
 	var bulletToSpawn = preload("res://Game/Scene/bullet.tscn")
 	var bulletInstance = GameManager.SpawnVFX(bulletToSpawn, shooting_point.global_position)
 
+	# Shooting would decrease some stamina
+	currentStamina -= STAMINA_REGEN_RATE * 1.5
+
 	# Set bullet direction based on which way player is facing
 	if animated_sprite_2d.flip_h:
 		bulletInstance.direction = -1  # Shoot left
@@ -227,7 +247,7 @@ func Shoot():
 # =============================================================================
 func TryToShoot():
 	# Don't shoot if already shooting (cooldown active)
-	if isShooting:
+	if isShooting or currentStamina < 15:
 		return
 
 	# Set shooting state and fire

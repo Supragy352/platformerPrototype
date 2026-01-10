@@ -30,8 +30,6 @@ func _ready() -> void:
 	# Create a new noise generator for camera shake randomization
 	cameraShakeNoise = FastNoiseLite.new()
 
-
-
 # =============================================================================
 # PlayerEnteredResetArea() - Called when player enters a reset/death zone
 # Teleports the player back to their original spawn position
