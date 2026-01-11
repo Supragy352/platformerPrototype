@@ -8,13 +8,16 @@
 extends CanvasLayer
 
 # --- Node References ---
-@onready var health_bar: ProgressBar = $GameScreen/HealthBar    # Player health bar UI
-@onready var stamina_bar: ProgressBar = $GameScreen/StaminaBar  # Player stamina bar UI
-@onready var coin_label: Label = $GameScreen/CoinLabel          # Coin count display label
-@onready var pause_button: Button = $GameScreen/Pause           # Game pause button
-@onready var resume_button: Button = $PauseScreen/Resume        # Game resume button
-@onready var game_over_screen: Panel = $GameOverScreen          # Game over overlay panel
-@onready var game_pause_screen: Panel = $PauseScreen            # Game pause overlay panel
+@onready var health_bar: ProgressBar = $GameScreen/HealthBar                       # Player health bar UI
+@onready var stamina_bar: ProgressBar = $GameScreen/StaminaBar                     # Player stamina bar UI
+@onready var pause_button: Button = $GameScreen/Pause                              # Game pause button
+@onready var resume_button: Button = $PauseScreen/Resume                           # Game resume button
+@onready var game_over_screen: Panel = $GameOverScreen                             # Game over overlay panel
+@onready var game_pause_screen: Panel = $PauseScreen                               # Game pause overlay panel
+@onready var score_label: Label = $GameScreen/VBoxContainer/ScoreElement/Score     # Score display label
+@onready var coin_label: Label = $GameScreen/VBoxContainer/CoinElement/Coin        # Coin count display label
+@onready var time_label: Label = $GameScreen/VBoxContainer/TimerElement/Time       # Time display label
+
 
 # =============================================================================
 # _ready() - Called when the node enters the scene tree
@@ -26,9 +29,11 @@ func _ready():
 
 	# Connect player signals to UI update functions
 	if player:
-		player.playerHealthUpdated.connect(UpdateHealthBar)   # Update health bar when health changes
-		player.playerStaminaUpdated.connect(UpdateStaminaBar) # Update stamina bar when stamina changes
-		player.playerCoinUpdated.connect(UpdateCoinLabel)     # Update coin display when coins change
+		player.playerHealthUpdated.connect(UpdateHealthBar)    # Update health bar when health changes
+		player.playerStaminaUpdated.connect(UpdateStaminaBar)  # Update stamina bar when stamina changes
+		player.playerScoreUpdated.connect(UpdateScoreLabel)    # Update score display when score changes
+		player.playerCoinUpdated.connect(UpdateCoinLabel)      # Update coin display when coins change
+		player.playerTimerUpdated.connect(UpdateTimeLabel)     # Update timer display when time changes
 
 	# Connect GameManager's GameOver signal to show game over screen
 	GameManager.GameOver.connect(ShowGameOverScreen)
@@ -67,11 +72,25 @@ func UpdateStaminaBar(newValue: int , maxValue: int):
 	stamina_bar.value = barValue
 
 # =============================================================================
+# UpdateScoreLabel(newValue) - Updates the score counter display
+# Converts the score count to string and displays it
+# =============================================================================
+func UpdateScoreLabel(newValue:int):
+	score_label.text = str(newValue)
+
+# =============================================================================
 # UpdateCoinLabel(newValue) - Updates the coin counter display
 # Converts the coin count to string and displays it
 # =============================================================================
 func UpdateCoinLabel(newValue:int):
 	coin_label.text = str(newValue)
+
+# =============================================================================
+# UpdateTimeLabel(newValue) - Updates the time counter display
+# Converts the time count to string and displays it
+# =============================================================================
+func UpdateTimeLabel(newValue:int):
+	time_label.text = str(newValue)
 
 # =============================================================================
 # ShowGameOverScreen() - Displays the game over overlay

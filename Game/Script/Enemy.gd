@@ -108,7 +108,7 @@ func ApplyDamage(damage : int):
 
 		# Award coins to the player for killing enemy
 		var player = get_tree().get_root().get_node("Root").get_node("Player") as PlayerController
-		player.CollectedCoin(10)
+		player.KilledEnemy(10)
 
 		# Play death animation
 		animated_sprite_2d.play("Die")

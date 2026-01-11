@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=4 uid="uid://cgjcaelcalpje"]
+[gd_scene load_steps=60 format=4 uid="uid://cgjcaelcalpje"]
 
 [ext_resource type="PackedScene" uid="uid://b4slx5h7sqjmh" path="res://Game/Scene/Player.tscn" id="1_5d7k0"]
 [ext_resource type="Texture2D" uid="uid://cehsf33bpirjx" path="res://Asset/Tilemap/Tilemap_ProjectLittleAdventurerAndie2D.png" id="2_oh0s4"]
@@ -682,6 +682,28 @@ corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
 
+[sub_resource type="LabelSettings" id="LabelSettings_5d7k0"]
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_oh0s4"]
+font_size = 21
+
+[sub_resource type="LabelSettings" id="LabelSettings_3utbw"]
+font_size = 20
+font_color = Color(1, 1, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wahhk"]
+font_size = 21
+font_color = Color(1, 1, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_8bvvq"]
+font_size = 20
+font_color = Color(0, 1, 1, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_1luhv"]
+font_size = 21
+font_color = Color(0, 1, 1, 1)
+
 [sub_resource type="LabelSettings" id="LabelSettings_qr0jf"]
 font_size = 80
 font_color = Color(0.823529, 0.67451, 0.0862745, 1)
@@ -931,6 +953,7 @@ value = 100.0
 show_percentage = false
 
 [node name="CoinLabel" type="Label" parent="CanvasLayer/GameScreen"]
+visible = false
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -973,6 +996,70 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_3utbw")
 text = "Z"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/GameScreen"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -198.0
+offset_top = 50.0
+offset_right = -48.0
+offset_bottom = 150.0
+grow_horizontal = 0
+theme_override_constants/separation = 16
+
+[node name="ScoreElement" type="HBoxContainer" parent="CanvasLayer/GameScreen/VBoxContainer"]
+layout_mode = 2
+
+[node name="ScoreLabel" type="Label" parent="CanvasLayer/GameScreen/VBoxContainer/ScoreElement"]
+layout_mode = 2
+text = "Score:"
+label_settings = SubResource("LabelSettings_5d7k0")
+vertical_alignment = 1
+
+[node name="Spacer" type="Control" parent="CanvasLayer/GameScreen/VBoxContainer/ScoreElement"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Score" type="Label" parent="CanvasLayer/GameScreen/VBoxContainer/ScoreElement"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_oh0s4")
+
+[node name="CoinElement" type="HBoxContainer" parent="CanvasLayer/GameScreen/VBoxContainer"]
+layout_mode = 2
+
+[node name="CoinLabel" type="Label" parent="CanvasLayer/GameScreen/VBoxContainer/CoinElement"]
+layout_mode = 2
+text = "Coin:"
+label_settings = SubResource("LabelSettings_3utbw")
+
+[node name="Spacer" type="Control" parent="CanvasLayer/GameScreen/VBoxContainer/CoinElement"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Coin" type="Label" parent="CanvasLayer/GameScreen/VBoxContainer/CoinElement"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_wahhk")
+
+[node name="TimerElement" type="HBoxContainer" parent="CanvasLayer/GameScreen/VBoxContainer"]
+layout_mode = 2
+
+[node name="TimeLabel" type="Label" parent="CanvasLayer/GameScreen/VBoxContainer/TimerElement"]
+layout_mode = 2
+text = "Timer:"
+label_settings = SubResource("LabelSettings_8bvvq")
+
+[node name="Spacer" type="Control" parent="CanvasLayer/GameScreen/VBoxContainer/TimerElement"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Time" type="Label" parent="CanvasLayer/GameScreen/VBoxContainer/TimerElement"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_1luhv")
 
 [node name="GameOverScreen" type="Panel" parent="CanvasLayer"]
 visible = false
