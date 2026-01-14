@@ -67,6 +67,13 @@ var currentStamina:
 const MAX_STAMINA = 100        # Maximum player stamina
 const STAMINA_REGEN_RATE = 10  # Stamina regeneration rate per second
 
+# --- Score System ---
+# Current score with setter that emits signal for UI updates
+var currentScore = 0:
+	set(new_value):
+		currentScore = new_value
+		emit_signal("playerScoreUpdated", currentScore)
+
 # --- Coin System ---
 # Current coins with setter that emits signal for UI updates
 var currentCoin = 0:
@@ -74,10 +81,19 @@ var currentCoin = 0:
 		currentCoin = new_value
 		emit_signal("playerCoinUpdated", currentCoin)
 
+# --- Timer System ---
+# Current timer with setter that emits signal for UI updates
+var currentTimer = 0:
+	set(new_value):
+		currentTimer = new_value
+		emit_signal("playerTimerUpdated", currentTimer)
+
 # --- Signals for UI Communication ---
 signal playerHealthUpdated(newValue, maxValue)   # Emitted when health changes
 signal playerStaminaUpdated(newValue, maxValue)  # Emitted when stamina changes
+signal playerScoreUpdated(newValue)              # Emitted when score changes
 signal playerCoinUpdated(newValue)               # Emitted when coin count changes
+signal playerTimerUpdated(newValue)              # Emitted when timer changes
 
 # =============================================================================
 # _ready() - Called when the node enters the scene tree
@@ -98,7 +114,11 @@ func _ready():
 # _process(delta) - Called every frame
 # Handles animation updates
 # =============================================================================
-func _process(_delta):
+func _process(delta):
+	# Update timer
+	currentTimer += delta
+
+	# Update player animation
 	UpdateAnimation()
 
 # =============================================================================
@@ -288,6 +308,21 @@ func ApplyDmage(damage:int):
 	if currentHealth <= 0:
 		currentHealth = 0
 		currentState = PlayerState.Dead
+
+# =============================================================================
+# KilledEnemy(value) - Called when player kills an enemy
+# Adds to score count and heals the player based on enemy value
+# =============================================================================
+func KilledEnemy(value:int):
+	# Add coin value to total
+	currentScore += value
+
+	# Heal player (30 HP per kill value) up to max health
+	if currentHealth < MAX_HEALTH:
+		currentHealth += 3 * value
+		# Cap health at maximum
+		if currentHealth > MAX_HEALTH:
+			currentHealth = MAX_HEALTH
 
 # =============================================================================
 # CollectedCoin(value) - Called when player collects a coin
